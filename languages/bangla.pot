@@ -1,0 +1,3578 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bangla\n"
+"POT-Creation-Date: 2020-02-02 00:34+0600\n"
+"PO-Revision-Date: 2020-02-01 22:58+0600\n"
+"Last-Translator: Fahim Sabuj <fahimislamsabuj@yahoo.com>\n"
+"Language-Team: Fahim Sabuj <fahimislamsabuj@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:26
+msgid "404"
+msgstr ""
+
+#: 404.php:27
+msgid "Page Doesn't Exists"
+msgstr ""
+
+#: 404.php:30
+msgid "Go back"
+msgstr ""
+
+#: 404.php:33
+#, php-format
+msgid ""
+"The Page you are looking for doesn't exist or an other error occurred. %s or "
+"head over to %s %s homepage to choose a new direction."
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgid "Comment"
+msgid_plural "Comments (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:29 comments.php:43
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31 comments.php:45
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:46
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+msgid "Name"
+msgstr ""
+
+#: comments.php:74
+msgid "Email"
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: comments.php:92
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:93
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:94
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:95
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:98
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:104
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:110
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:117
+msgid "Your email address will not be published."
+msgstr ""
+
+#: customizer/class-customizer-base.php:70
+msgctxt "backend"
+msgid "Default Logo"
+msgstr ""
+
+#: customizer/class-customizer-base.php:79
+msgctxt "backend"
+msgid "Default Logo Width"
+msgstr ""
+
+#: customizer/class-customizer-base.php:80
+#: customizer/class-customizer-base.php:103
+msgctxt "backend"
+msgid ""
+"This is an optional width (example: 150px) settings. maybe this not need if "
+"you use 150px x 32px logo."
+msgstr ""
+
+#: customizer/class-customizer-base.php:92
+msgctxt "backend"
+msgid "Mobile Logo"
+msgstr ""
+
+#: customizer/class-customizer-base.php:102
+msgctxt "backend"
+msgid "Mobile Logo Width"
+msgstr ""
+
+#: customizer/class-customizer-base.php:115
+msgctxt "backend"
+msgid "Mobile Logo Align"
+msgstr ""
+
+#: customizer/class-customizer-base.php:120
+#: customizer/class-customizer-base.php:856
+#: customizer/class-customizer-base.php:943
+msgctxt "backend"
+msgid "Hide"
+msgstr ""
+
+#: customizer/class-customizer-base.php:121
+#: customizer/class-customizer-base.php:944
+msgctxt "backend"
+msgid "Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:122
+#: customizer/class-customizer-base.php:945
+msgctxt "backend"
+msgid "Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:123
+msgctxt "backend"
+msgid "Center"
+msgstr ""
+
+#: customizer/class-customizer-base.php:130
+msgctxt "backend"
+msgid "Toolbar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:139
+msgctxt "backend"
+msgid "Show Toolbar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:144
+#: customizer/class-customizer-base.php:350
+#: customizer/class-customizer-base.php:368
+#: customizer/class-customizer-base.php:532
+#: customizer/class-customizer-base.php:550
+#: customizer/class-customizer-base.php:568
+#: customizer/class-customizer-base.php:586
+#: customizer/class-customizer-base.php:621
+#: customizer/class-customizer-base.php:1606 inc/meta-boxes.php:738
+msgctxt "backend"
+msgid "Yes"
+msgstr ""
+
+#: customizer/class-customizer-base.php:145
+#: customizer/class-customizer-base.php:351
+#: customizer/class-customizer-base.php:369
+#: customizer/class-customizer-base.php:533
+#: customizer/class-customizer-base.php:551
+#: customizer/class-customizer-base.php:569
+#: customizer/class-customizer-base.php:587
+#: customizer/class-customizer-base.php:622
+#: customizer/class-customizer-base.php:781
+#: customizer/class-customizer-base.php:799
+#: customizer/class-customizer-base.php:1607 inc/meta-boxes.php:231
+#: inc/meta-boxes.php:247 inc/meta-boxes.php:739
+msgctxt "backend"
+msgid "No"
+msgstr ""
+
+#: customizer/class-customizer-base.php:154
+msgctxt "backend"
+msgid "Toolbar Fullwidth"
+msgstr ""
+
+#: customizer/class-customizer-base.php:155
+msgctxt "backend"
+msgid "(Make your tolbar full width like fluid width.)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:184
+#: customizer/class-customizer-base.php:437
+#: customizer/class-customizer-base.php:1027
+#: customizer/class-customizer-base.php:1926
+#: customizer/class-customizer-base.php:2123
+#: customizer/class-customizer-base.php:2346
+#: customizer/class-customizer-base.php:2559
+#: customizer/class-customizer-base.php:2778
+msgctxt "backend"
+msgid "Text Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:205
+#: customizer/class-customizer-base.php:2541
+#: customizer/class-customizer-base.php:2760
+msgctxt "backend"
+msgid "Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:216
+msgctxt "backend"
+msgid "Toolbar Left Area"
+msgstr ""
+
+#: customizer/class-customizer-base.php:229
+#: customizer/class-customizer-base.php:267
+msgctxt "backend"
+msgid "Hide in mobile mode"
+msgstr ""
+
+#: customizer/class-customizer-base.php:241
+msgctxt "backend"
+msgid "Toolbar Left Custom Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:253
+msgctxt "backend"
+msgid "Toolbar Right Area"
+msgstr ""
+
+#: customizer/class-customizer-base.php:254
+msgctxt "backend"
+msgid ""
+"This element automatically hide on mobile mode, for better preview shopping "
+"cart."
+msgstr ""
+
+#: customizer/class-customizer-base.php:279
+msgctxt "backend"
+msgid "Toolbar Right Custom Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:291
+#: customizer/class-customizer-base.php:3084
+#: customizer/class-customizer-base.php:3101
+msgctxt "backend"
+msgid "Social Link"
+msgstr ""
+
+#: customizer/class-customizer-base.php:292
+msgctxt "backend"
+msgid "Enter up to 5 links to your social profiles."
+msgstr ""
+
+#: customizer/class-customizer-base.php:304
+msgctxt "backend"
+msgid "Social link as button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:319
+msgctxt "backend"
+msgid "General"
+msgstr ""
+
+#: customizer/class-customizer-base.php:328
+msgctxt "backend"
+msgid "Global Layout"
+msgstr ""
+
+#: customizer/class-customizer-base.php:333
+#: customizer/class-customizer-base.php:511
+#: customizer/class-customizer-base.php:1662 inc/meta-boxes.php:126
+msgctxt "backend"
+msgid "Fullwidth"
+msgstr ""
+
+#: customizer/class-customizer-base.php:334
+msgctxt "backend"
+msgid "Boxed"
+msgstr ""
+
+#: customizer/class-customizer-base.php:344
+msgctxt "backend"
+msgid "Show Global Page Comment"
+msgstr ""
+
+#: customizer/class-customizer-base.php:345
+msgctxt "backend"
+msgid "Enable / Disable global page comments (not post comment)."
+msgstr ""
+
+#: customizer/class-customizer-base.php:362
+msgctxt "backend"
+msgid "Offcanvas Search"
+msgstr ""
+
+#: customizer/class-customizer-base.php:363
+msgctxt "backend"
+msgid "Enable / Disable Offcanvas search display"
+msgstr ""
+
+#: customizer/class-customizer-base.php:377
+msgctxt "backend"
+msgid "Titlebar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:387
+#: customizer/class-customizer-base.php:597
+msgctxt "backend"
+msgid "Titlebar Layout"
+msgstr ""
+
+#: customizer/class-customizer-base.php:393
+#: customizer/class-customizer-base.php:603 inc/meta-boxes.php:277
+#: inc/meta-boxes.php:544
+msgctxt "backend"
+msgid "Left Align"
+msgstr ""
+
+#: customizer/class-customizer-base.php:394
+#: customizer/class-customizer-base.php:604 inc/meta-boxes.php:278
+#: inc/meta-boxes.php:545
+msgctxt "backend"
+msgid "Center Align"
+msgstr ""
+
+#: customizer/class-customizer-base.php:395
+#: customizer/class-customizer-base.php:605 inc/meta-boxes.php:279
+#: inc/meta-boxes.php:546
+msgctxt "backend"
+msgid "Right Align"
+msgstr ""
+
+#: customizer/class-customizer-base.php:396
+msgctxt "backend"
+msgid "No Titlebar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:406
+#: customizer/class-customizer-base.php:686
+#: customizer/class-customizer-base.php:997
+#: customizer/class-customizer-base.php:2009
+#: customizer/class-customizer-base.php:2296
+#: customizer/class-customizer-base.php:2450
+msgctxt "backend"
+msgid "Background Style"
+msgstr ""
+
+#: customizer/class-customizer-base.php:411
+#: customizer/class-customizer-base.php:442
+#: customizer/class-customizer-base.php:459
+#: customizer/class-customizer-base.php:691
+#: customizer/class-customizer-base.php:744
+#: customizer/class-customizer-base.php:873
+#: customizer/class-customizer-base.php:1002
+#: customizer/class-customizer-base.php:1032
+#: customizer/class-customizer-base.php:1070
+#: customizer/class-customizer-base.php:1123
+#: customizer/class-customizer-base.php:2014
+#: customizer/class-customizer-base.php:2128
+#: customizer/class-customizer-base.php:2182
+#: customizer/class-customizer-base.php:2201
+#: customizer/class-customizer-base.php:2221
+#: customizer/class-customizer-base.php:2301
+#: customizer/class-customizer-base.php:2351
+#: customizer/class-customizer-base.php:2367
+#: customizer/class-customizer-base.php:3108 inc/meta-boxes.php:125
+#: inc/meta-boxes.php:189 inc/meta-boxes.php:293 inc/meta-boxes.php:319
+#: inc/meta-boxes.php:559 inc/meta-boxes.php:586
+msgctxt "backend"
+msgid "Default"
+msgstr ""
+
+#: customizer/class-customizer-base.php:412
+#: customizer/class-customizer-base.php:692
+#: customizer/class-customizer-base.php:1003
+#: customizer/class-customizer-base.php:2015
+#: customizer/class-customizer-base.php:2302
+#: customizer/class-customizer-base.php:2456 inc/meta-boxes.php:190
+#: inc/meta-boxes.php:294 inc/meta-boxes.php:560
+msgctxt "backend"
+msgid "Muted"
+msgstr ""
+
+#: customizer/class-customizer-base.php:413
+#: customizer/class-customizer-base.php:693
+#: customizer/class-customizer-base.php:1004
+#: customizer/class-customizer-base.php:2016
+#: customizer/class-customizer-base.php:2303
+#: customizer/class-customizer-base.php:2457 inc/meta-boxes.php:191
+#: inc/meta-boxes.php:295 inc/meta-boxes.php:561
+msgctxt "backend"
+msgid "Primary"
+msgstr ""
+
+#: customizer/class-customizer-base.php:414
+#: customizer/class-customizer-base.php:694
+#: customizer/class-customizer-base.php:1005
+#: customizer/class-customizer-base.php:2017
+#: customizer/class-customizer-base.php:2304
+#: customizer/class-customizer-base.php:2458 inc/meta-boxes.php:192
+#: inc/meta-boxes.php:296 inc/meta-boxes.php:562
+msgctxt "backend"
+msgid "Secondary"
+msgstr ""
+
+#: customizer/class-customizer-base.php:415
+#: customizer/class-customizer-base.php:695
+#: customizer/class-customizer-base.php:1006
+#: customizer/class-customizer-base.php:2018
+#: customizer/class-customizer-base.php:2305 inc/meta-boxes.php:193
+#: inc/meta-boxes.php:297 inc/meta-boxes.php:563
+msgctxt "backend"
+msgid "Image"
+msgstr ""
+
+#: customizer/class-customizer-base.php:425
+#: customizer/class-customizer-base.php:705
+#: customizer/class-customizer-base.php:1016
+#: customizer/class-customizer-base.php:2055
+#: customizer/class-customizer-base.php:2334
+msgctxt "backend"
+msgid "Background Image"
+msgstr ""
+
+#: customizer/class-customizer-base.php:443
+#: customizer/class-customizer-base.php:745
+#: customizer/class-customizer-base.php:1033
+#: customizer/class-customizer-base.php:2129
+#: customizer/class-customizer-base.php:2352 inc/meta-boxes.php:216
+#: inc/meta-boxes.php:320 inc/meta-boxes.php:587
+msgctxt "backend"
+msgid "Light"
+msgstr ""
+
+#: customizer/class-customizer-base.php:444
+#: customizer/class-customizer-base.php:746
+#: customizer/class-customizer-base.php:1034
+#: customizer/class-customizer-base.php:2130
+#: customizer/class-customizer-base.php:2353 inc/meta-boxes.php:217
+#: inc/meta-boxes.php:321 inc/meta-boxes.php:588
+msgctxt "backend"
+msgid "Dark"
+msgstr ""
+
+#: customizer/class-customizer-base.php:454
+#: customizer/class-customizer-base.php:1118
+#: customizer/class-customizer-base.php:2196
+#: customizer/class-customizer-base.php:2381
+msgctxt "backend"
+msgid "Padding"
+msgstr ""
+
+#: customizer/class-customizer-base.php:460
+#: customizer/class-customizer-base.php:763
+#: customizer/class-customizer-base.php:926
+#: customizer/class-customizer-base.php:1068
+#: customizer/class-customizer-base.php:1124
+#: customizer/class-customizer-base.php:2183
+#: customizer/class-customizer-base.php:2202
+#: customizer/class-customizer-base.php:2219
+#: customizer/class-customizer-base.php:2368
+#: customizer/class-customizer-base.php:2386 inc/sidebars.php:91
+msgctxt "backend"
+msgid "Small"
+msgstr ""
+
+#: customizer/class-customizer-base.php:461
+#: customizer/class-customizer-base.php:765
+#: customizer/class-customizer-base.php:928
+#: customizer/class-customizer-base.php:1071
+#: customizer/class-customizer-base.php:1125
+#: customizer/class-customizer-base.php:2184
+#: customizer/class-customizer-base.php:2204
+#: customizer/class-customizer-base.php:2222
+#: customizer/class-customizer-base.php:2369
+#: customizer/class-customizer-base.php:2388 inc/sidebars.php:76
+msgctxt "backend"
+msgid "Large"
+msgstr ""
+
+#: customizer/class-customizer-base.php:462
+#: customizer/class-customizer-base.php:1126
+#: customizer/class-customizer-base.php:2205
+#: customizer/class-customizer-base.php:2389
+msgctxt "backend"
+msgid "None"
+msgstr ""
+
+#: customizer/class-customizer-base.php:468
+#: customizer/class-customizer-base.php:493
+msgctxt "backend"
+msgid "Blog"
+msgstr ""
+
+#: customizer/class-customizer-base.php:472
+msgctxt "backend"
+msgid "Blog Title: "
+msgstr ""
+
+#: customizer/class-customizer-base.php:479
+msgctxt "backend"
+msgid "Shop"
+msgstr ""
+
+#: customizer/class-customizer-base.php:483
+msgctxt "backend"
+msgid "WooCommerce Title: "
+msgstr ""
+
+#: customizer/class-customizer-base.php:504
+msgctxt "backend"
+msgid "Blog Page Layout"
+msgstr ""
+
+#: customizer/class-customizer-base.php:505
+msgctxt "backend"
+msgid ""
+"If you select static blog page so you need to select your blog page layout "
+"from here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:510
+#: customizer/class-customizer-base.php:983
+#: customizer/class-customizer-base.php:1661 inc/meta-boxes.php:128
+msgctxt "backend"
+msgid "Sidebar Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:512
+#: customizer/class-customizer-base.php:985
+#: customizer/class-customizer-base.php:1663 inc/meta-boxes.php:127
+msgctxt "backend"
+msgid "Sidebar Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:526
+msgctxt "backend"
+msgid "Read More Button in Blog Posts"
+msgstr ""
+
+#: customizer/class-customizer-base.php:527
+msgctxt "backend"
+msgid "Enable / Disable read more button on blog posts."
+msgstr ""
+
+#: customizer/class-customizer-base.php:544
+msgctxt "backend"
+msgid "Metadata on Blog Posts"
+msgstr ""
+
+#: customizer/class-customizer-base.php:545
+msgctxt "backend"
+msgid "Enable / Disable metadata on blog post."
+msgstr ""
+
+#: customizer/class-customizer-base.php:562
+msgctxt "backend"
+msgid "Previous / Next Pagination"
+msgstr ""
+
+#: customizer/class-customizer-base.php:563
+msgctxt "backend"
+msgid "Enable / Disable next previous button on blog posts."
+msgstr ""
+
+#: customizer/class-customizer-base.php:580
+msgctxt "backend"
+msgid "Author Info in Blog Details"
+msgstr ""
+
+#: customizer/class-customizer-base.php:581
+msgctxt "backend"
+msgid "Enable / Disable author info from underneath of blog posts."
+msgstr ""
+
+#: customizer/class-customizer-base.php:615
+msgctxt "backend"
+msgid "Related Posts in Blog Details"
+msgstr ""
+
+#: customizer/class-customizer-base.php:616
+msgctxt "backend"
+msgid "Enable / Disable related post underneath of blog posts."
+msgstr ""
+
+#: customizer/class-customizer-base.php:636
+#: customizer/class-customizer-base.php:857
+msgctxt "backend"
+msgid "Header"
+msgstr ""
+
+#: customizer/class-customizer-base.php:647 inc/meta-boxes.php:149
+msgctxt "backend"
+msgid "Header Layout"
+msgstr ""
+
+#: customizer/class-customizer-base.php:648
+msgctxt "backend"
+msgid ""
+"Select header layout from here. This header layout for global usage but you "
+"can change it from your page setting for specific page."
+msgstr ""
+
+#: customizer/class-customizer-base.php:653
+msgctxt "backend"
+msgid "Horizontal Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:654
+msgctxt "backend"
+msgid "Horizontal Center"
+msgstr ""
+
+#: customizer/class-customizer-base.php:655
+msgctxt "backend"
+msgid "Horizontal Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:656
+msgctxt "backend"
+msgid "Stacked Center A"
+msgstr ""
+
+#: customizer/class-customizer-base.php:657
+msgctxt "backend"
+msgid "Stacked Center B"
+msgstr ""
+
+#: customizer/class-customizer-base.php:658
+msgctxt "backend"
+msgid "Stacked Center Split"
+msgstr ""
+
+#: customizer/class-customizer-base.php:659
+msgctxt "backend"
+msgid "Stacked Left A"
+msgstr ""
+
+#: customizer/class-customizer-base.php:660
+msgctxt "backend"
+msgid "Stacked Left B"
+msgstr ""
+
+#: customizer/class-customizer-base.php:661
+msgctxt "backend"
+msgid "Toggle Offcanvas"
+msgstr ""
+
+#: customizer/class-customizer-base.php:662
+msgctxt "backend"
+msgid "Toggle Modal"
+msgstr ""
+
+#: customizer/class-customizer-base.php:663
+msgctxt "backend"
+msgid "Side Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:664
+msgctxt "backend"
+msgid "Side Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:673
+msgctxt "backend"
+msgid "Header Fullwidth"
+msgstr ""
+
+#: customizer/class-customizer-base.php:674
+msgctxt "backend"
+msgid "(Make your header full width like fluid width.)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:716
+#: customizer/class-customizer-base.php:2067
+msgctxt "backend"
+msgid "Background Position"
+msgstr ""
+
+#: customizer/class-customizer-base.php:721
+#: customizer/class-customizer-base.php:2073
+msgctxt "backend"
+msgid "Top Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:722
+#: customizer/class-customizer-base.php:2074
+msgctxt "backend"
+msgid "Top Center"
+msgstr ""
+
+#: customizer/class-customizer-base.php:723
+#: customizer/class-customizer-base.php:2075
+msgctxt "backend"
+msgid "Top Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:724
+#: customizer/class-customizer-base.php:2076
+msgctxt "backend"
+msgid "Center Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:725
+#: customizer/class-customizer-base.php:2077
+msgctxt "backend"
+msgid "Center Center"
+msgstr ""
+
+#: customizer/class-customizer-base.php:726
+#: customizer/class-customizer-base.php:2078
+msgctxt "backend"
+msgid "Center Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:727
+#: customizer/class-customizer-base.php:2079
+#: customizer/class-customizer-base.php:2476
+msgctxt "backend"
+msgid "Bottom Left"
+msgstr ""
+
+#: customizer/class-customizer-base.php:728
+#: customizer/class-customizer-base.php:2080
+#: customizer/class-customizer-base.php:2477
+msgctxt "backend"
+msgid "Bottom Center"
+msgstr ""
+
+#: customizer/class-customizer-base.php:729
+#: customizer/class-customizer-base.php:2081
+#: customizer/class-customizer-base.php:2478
+msgctxt "backend"
+msgid "Bottom Right"
+msgstr ""
+
+#: customizer/class-customizer-base.php:739
+msgctxt "backend"
+msgid "Header Text Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:757
+msgctxt "backend"
+msgid "Shadow"
+msgstr ""
+
+#: customizer/class-customizer-base.php:762
+msgctxt "backend"
+msgid "No Shadow"
+msgstr ""
+
+#: customizer/class-customizer-base.php:764
+#: customizer/class-customizer-base.php:927
+#: customizer/class-customizer-base.php:1069
+#: customizer/class-customizer-base.php:2203
+#: customizer/class-customizer-base.php:2220
+#: customizer/class-customizer-base.php:2387 inc/sidebars.php:83
+msgctxt "backend"
+msgid "Medium"
+msgstr ""
+
+#: customizer/class-customizer-base.php:766
+msgctxt "backend"
+msgid "Extra Large"
+msgstr ""
+
+#: customizer/class-customizer-base.php:776
+msgctxt "backend"
+msgid "Header Transparent"
+msgstr ""
+
+#: customizer/class-customizer-base.php:782 inc/meta-boxes.php:232
+msgctxt "backend"
+msgid "Overlay (Light)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:783 inc/meta-boxes.php:233
+msgctxt "backend"
+msgid "Overlay (Dark)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:794 inc/meta-boxes.php:242
+msgctxt "backend"
+msgid "Header Sticky"
+msgstr ""
+
+#: customizer/class-customizer-base.php:800 inc/meta-boxes.php:248
+msgctxt "backend"
+msgid "Sticky"
+msgstr ""
+
+#: customizer/class-customizer-base.php:801 inc/meta-boxes.php:249
+msgctxt "backend"
+msgid "Smart Sticky"
+msgstr ""
+
+#: customizer/class-customizer-base.php:819
+msgctxt "backend"
+msgid "Sticky Active Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:830
+msgctxt "backend"
+msgid "Main Menu Style"
+msgstr ""
+
+#: customizer/class-customizer-base.php:835
+msgctxt "backend"
+msgid "Top Line"
+msgstr ""
+
+#: customizer/class-customizer-base.php:836
+msgctxt "backend"
+msgid "Bottom Line"
+msgstr ""
+
+#: customizer/class-customizer-base.php:837
+msgctxt "backend"
+msgid "Top Edge Line"
+msgstr ""
+
+#: customizer/class-customizer-base.php:838
+msgctxt "backend"
+msgid "Bottom Edge Line"
+msgstr ""
+
+#: customizer/class-customizer-base.php:839
+msgctxt "backend"
+msgid "Markar Mark"
+msgstr ""
+
+#: customizer/class-customizer-base.php:850
+msgctxt "backend"
+msgid "Search"
+msgstr ""
+
+#: customizer/class-customizer-base.php:851
+msgctxt "backend"
+msgid "Select the position that will display the search."
+msgstr ""
+
+#: customizer/class-customizer-base.php:858
+msgctxt "backend"
+msgid "With Menu"
+msgstr ""
+
+#: customizer/class-customizer-base.php:867
+msgctxt "backend"
+msgid "Search Style"
+msgstr ""
+
+#: customizer/class-customizer-base.php:868
+msgctxt "backend"
+msgid "Select search style from here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:874
+#: customizer/class-customizer-base.php:892
+msgctxt "backend"
+msgid "Modal"
+msgstr ""
+
+#: customizer/class-customizer-base.php:875
+#: customizer/class-customizer-base.php:893
+msgctxt "backend"
+msgid "Dropdown"
+msgstr ""
+
+#: customizer/class-customizer-base.php:885
+msgctxt "backend"
+msgid "Mobile Menu Style"
+msgstr ""
+
+#: customizer/class-customizer-base.php:891
+msgctxt "backend"
+msgid "Offcanvas"
+msgstr ""
+
+#: customizer/class-customizer-base.php:903
+msgctxt "backend"
+msgid "Offcanvas Mode"
+msgstr ""
+
+#: customizer/class-customizer-base.php:908
+msgctxt "backend"
+msgid "Slide"
+msgstr ""
+
+#: customizer/class-customizer-base.php:909
+msgctxt "backend"
+msgid "Reveal"
+msgstr ""
+
+#: customizer/class-customizer-base.php:910
+msgctxt "backend"
+msgid "Push"
+msgstr ""
+
+#: customizer/class-customizer-base.php:921
+msgctxt "backend"
+msgid "Mobile Break Point"
+msgstr ""
+
+#: customizer/class-customizer-base.php:938
+msgctxt "backend"
+msgid "Mobile Menu Align"
+msgstr ""
+
+#: customizer/class-customizer-base.php:955
+msgctxt "backend"
+msgid "Display the menu text next to the icon."
+msgstr ""
+
+#: customizer/class-customizer-base.php:966
+msgctxt "backend"
+msgid "Main Body"
+msgstr ""
+
+#: customizer/class-customizer-base.php:967
+msgctxt "backend"
+msgid "Default body settings here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:977
+msgctxt "backend"
+msgid "Sidebar Layout"
+msgstr ""
+
+#: customizer/class-customizer-base.php:978
+msgctxt "backend"
+msgid ""
+"Select global page sidebar position from here. If you already set any "
+"sidebar setting from specific page so it will not applicable for that page."
+msgstr ""
+
+#: customizer/class-customizer-base.php:984
+msgctxt "backend"
+msgid "No Sidebar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1043
+msgctxt "backend"
+msgid "Sidebar Width"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1044
+msgctxt "backend"
+msgid ""
+"Set a sidebar width in percent and the content column will adjust "
+"accordingly. The width will not go below the Sidebar's min-width, which you "
+"can set in the Style section."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1049
+msgctxt "backend"
+msgid "20%"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1050
+msgctxt "backend"
+msgid "25%"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1051
+msgctxt "backend"
+msgid "33%"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1052
+msgctxt "backend"
+msgid "40%"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1053
+msgctxt "backend"
+msgid "50%"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1063
+#: customizer/class-customizer-base.php:2214
+msgctxt "backend"
+msgid "Gutter"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1072
+#: customizer/class-customizer-base.php:2223
+msgctxt "backend"
+msgid "Collapse"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1081
+msgctxt "backend"
+msgid "Display dividers between body and sidebar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1082
+#: customizer/class-customizer-base.php:2235
+msgctxt "backend"
+msgid "(Set the grid gutter width and display dividers between grid cells.)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1095
+#: customizer/class-customizer-base.php:2270
+msgctxt "backend"
+msgid "Breakpoint"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1096
+msgctxt "backend"
+msgid "Set the breakpoint from which the sidebar and content will stack."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1101
+#: customizer/class-customizer-base.php:2109
+#: customizer/class-customizer-base.php:2276
+msgctxt "backend"
+msgid "Small (Phone Landscape)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1102
+#: customizer/class-customizer-base.php:2110
+#: customizer/class-customizer-base.php:2277
+msgctxt "backend"
+msgid "Medium (Tablet Landscape)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1103
+#: customizer/class-customizer-base.php:2111
+#: customizer/class-customizer-base.php:2278
+msgctxt "backend"
+msgid "Large (Desktop)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1104
+#: customizer/class-customizer-base.php:2112
+#: customizer/class-customizer-base.php:2279
+msgctxt "backend"
+msgid "X-Large (Large Screens)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1144
+msgctxt "backend"
+msgid ""
+"You must set your layout mode Boxed for use this feature. Otherwise you "
+"can't see what happening in background"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1150
+msgctxt "backend"
+msgid "Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1155
+msgctxt "backend"
+msgid "Global Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1160
+msgctxt "backend"
+msgid "Button Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1165
+msgctxt "backend"
+msgid "Header Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1170
+msgctxt "backend"
+msgid "Menu Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1175
+msgctxt "backend"
+msgid "Offcanvas Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1180
+msgctxt "backend"
+msgid "Footer Colors"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1185
+msgctxt "backend"
+msgid "Global Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1187
+msgctxt "backend"
+msgid "Please select layout boxed for check your global page background."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1204
+msgctxt "backend"
+msgid "Global Text Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1226
+#: customizer/class-customizer-base.php:1453
+msgctxt "backend"
+msgid "Primary Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1278
+#: customizer/class-customizer-base.php:1474
+msgctxt "backend"
+msgid "Primary Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1308
+msgctxt "backend"
+msgid "Primary Hover Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1329
+#: customizer/class-customizer-base.php:1495
+msgctxt "backend"
+msgid "Secondary Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1348
+#: customizer/class-customizer-base.php:1516
+msgctxt "backend"
+msgid "Secondary Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1367
+msgctxt "backend"
+msgid "Muted Text Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1387
+msgctxt "backend"
+msgid "Muted Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1408
+msgctxt "backend"
+msgid "Default Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1429
+msgctxt "backend"
+msgid "Default Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1537
+msgctxt "backend"
+msgid "Danger Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1558
+msgctxt "backend"
+msgid "Danger Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1576
+msgctxt "backend"
+msgid "Browser Header Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1578
+msgctxt "backend"
+msgid ""
+"This color for mobile browser header. This color works only mobile view."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1589
+msgctxt "backend"
+msgid "Footer"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1590
+msgctxt "backend"
+msgid "All Bangla theme specific settings."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1601
+msgctxt "backend"
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1618
+msgctxt "backend"
+msgid "Footer Columns:"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1623 inc/meta-boxes.php:373
+#: inc/meta-boxes.php:391 inc/meta-boxes.php:412 inc/meta-boxes.php:458
+#: inc/meta-boxes.php:479
+msgctxt "backend"
+msgid "1 Column"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1624
+#: customizer/class-customizer-base.php:1698 inc/meta-boxes.php:374
+#: inc/meta-boxes.php:392 inc/meta-boxes.php:413 inc/meta-boxes.php:441
+#: inc/meta-boxes.php:459 inc/meta-boxes.php:480
+msgctxt "backend"
+msgid "2 Columns"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1625
+#: customizer/class-customizer-base.php:1699 inc/meta-boxes.php:375
+#: inc/meta-boxes.php:393 inc/meta-boxes.php:414 inc/meta-boxes.php:442
+#: inc/meta-boxes.php:460 inc/meta-boxes.php:481
+msgctxt "backend"
+msgid "3 Columns"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1626
+#: customizer/class-customizer-base.php:1700 inc/meta-boxes.php:376
+#: inc/meta-boxes.php:394 inc/meta-boxes.php:443 inc/meta-boxes.php:461
+#: inc/meta-boxes.php:482
+msgctxt "backend"
+msgid "4 Columns"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1635
+msgctxt "backend"
+msgid "First Column Double Width"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1636
+msgctxt "backend"
+msgid ""
+"some times your need first footer column double size so you can checked it."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1645
+msgctxt "backend"
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1656
+msgctxt "backend"
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1657
+msgctxt "backend"
+msgid "Make sure you add your widget in shop widget position."
+msgstr ""
+
+#: customizer/class-customizer-base.php:1675
+msgctxt "backend"
+msgid "Shopping Cart Icon in Header:"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1676
+msgctxt "backend"
+msgid "Enable / Disable Shopping Cart Icon"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1681
+#: customizer/class-customizer-base.php:2523
+#: customizer/class-customizer-base.php:2685
+#: customizer/class-customizer-base.php:2701
+#: customizer/class-customizer-base.php:2728
+#: customizer/class-customizer-base.php:2794
+msgctxt "backend"
+msgid "No Need"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1682
+msgctxt "backend"
+msgid "Yes (in header)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1683
+msgctxt "backend"
+msgid "Yes (in toolbar)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1693
+msgctxt "backend"
+msgid "Product Columns:"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1710
+msgctxt "backend"
+msgid "Items per Shop Page: "
+msgstr ""
+
+#: customizer/class-customizer-base.php:1711
+msgctxt "backend"
+msgid ""
+"Enter how many items you want to show on Shop pages & Categorie Pages before "
+"Pagination shows up (Default: 9)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1721
+msgctxt "backend"
+msgid "Shop Sort"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1722
+msgctxt "backend"
+msgid "(Enable / Disable sort-by function on Shop Pages)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1734
+msgctxt "backend"
+msgid "Shop Result Count"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1735
+msgctxt "backend"
+msgid "(Enable / Disable Result Count on Shop Pages)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1746
+msgctxt "backend"
+msgid "Add to Cart Button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1747
+msgctxt "backend"
+msgid "(Enable / Disable \"Add to Cart\"-Button on Shop Pages)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1758
+msgctxt "backend"
+msgid "Upsells Products"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1759
+msgctxt "backend"
+msgid "(Enable / Disable to show upsells Products on Product Item Details)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1769
+msgctxt "backend"
+msgid "Related Products"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1770
+msgctxt "backend"
+msgid "(Enable / Disable to show related Products on Product Item Details)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1790
+msgctxt "backend"
+msgid "Menu Link Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1808
+msgctxt "backend"
+msgid "Menu Hover Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1826
+msgctxt "backend"
+msgid "Menu Active Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1846
+msgctxt "backend"
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1866
+msgctxt "backend"
+msgid "Dropdown Link Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1889
+msgctxt "backend"
+msgid "Dropdown Link Hover Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1906
+msgctxt "backend"
+msgid "Offcanvas Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1944
+msgctxt "backend"
+msgid "Link Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1961
+msgctxt "backend"
+msgid "Link Active Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1979
+msgctxt "backend"
+msgid "Link Hover Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:1997
+msgctxt "backend"
+msgid "Border Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2019
+#: customizer/class-customizer-base.php:2306
+msgctxt "backend"
+msgid "Custom Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2045
+#: customizer/class-customizer-base.php:2324
+msgctxt "backend"
+msgid "Custom Background Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2068
+msgctxt "backend"
+msgid "Set the initial background position, relative to the section layer."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2091
+msgctxt "backend"
+msgid "Fix the background with regard to the viewport."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2103
+msgctxt "backend"
+msgid "Background Visibility"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2104
+msgctxt "backend"
+msgid "Display the image only on this device width and larger."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2131
+msgctxt "backend"
+msgid "Custom"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2166
+msgctxt "backend"
+msgid "Custom Text Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2177
+#: customizer/class-customizer-base.php:2362
+msgctxt "backend"
+msgid "Width"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2185
+#: customizer/class-customizer-base.php:2370
+msgctxt "backend"
+msgid "Expand"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2186
+#: customizer/class-customizer-base.php:2371
+msgctxt "backend"
+msgid "Full"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2234
+msgctxt "backend"
+msgid "Display dividers between grid cells"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2247
+msgctxt "backend"
+msgid "Vertically center grid cells."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2259
+msgctxt "backend"
+msgid "Stretch the panel to match the height of the grid cell."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2271
+msgctxt "backend"
+msgid "Set the breakpoint from which grid cells will stack."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2285
+msgctxt "backend"
+msgid "Copyright"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2286
+msgctxt "backend"
+msgid "Copyright section settings here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2401
+msgctxt "backend"
+msgid "Show Custom Copyright Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2410
+msgctxt "backend"
+msgid "https://www.broxme.com"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2414
+msgctxt "backend"
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2424
+msgctxt "backend"
+msgid "Go To Top"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2425
+msgctxt "backend"
+msgid "Go to top show/hide, layout and style here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2438
+msgctxt "backend"
+msgid "Show \"Go to top\" link"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2455
+msgctxt "backend"
+msgid "Default (White)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2470
+#: customizer/class-customizer-base.php:2488
+msgctxt "backend"
+msgid "Alignment"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2471
+#: customizer/class-customizer-base.php:2489
+msgctxt "backend"
+msgid "Set go to top alignment from here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2494
+msgctxt "backend"
+msgid "Squire"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2495
+msgctxt "backend"
+msgid "Rounded"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2496
+msgctxt "backend"
+msgid "Circle"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2506
+msgctxt "backend"
+msgid "Cookie Bar"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2507
+msgctxt "backend"
+msgid "Show cookie accept notification on your website."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2517
+msgctxt "backend"
+msgid "Show Cookie Notification"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2522
+#: customizer/class-customizer-base.php:2684
+#: customizer/class-customizer-base.php:2700
+#: customizer/class-customizer-base.php:2727
+#: customizer/class-customizer-base.php:2793
+msgctxt "backend"
+msgid "Yes please!"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2565 template-parts/cookie-bar.php:21
+msgid ""
+"We use cookies to ensure that we give you the best experience on our website."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2569
+msgctxt "backend"
+msgid "Message"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2570
+msgctxt "backend"
+msgid "Set cookie message from here."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2581
+msgctxt "backend"
+msgid "Expire Days"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2582
+#: customizer/class-customizer-base.php:2633
+msgctxt "backend"
+msgid "Set how many days to keep the cookies"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2594
+msgctxt "backend"
+msgid "Accept Button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2595
+msgctxt "backend"
+msgid "(Show accept button in cookie message area)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2606
+msgctxt "backend"
+msgid "Decline Button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2607
+msgctxt "backend"
+msgid "(Show decline button in cookie message area)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2619
+msgctxt "backend"
+msgid "Policy Button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2620
+msgctxt "backend"
+msgid "(Show policy button in cookie message area)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2632
+msgctxt "backend"
+msgid "Policy Page URL"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2645
+msgctxt "backend"
+msgid "Show Message at Button"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2657
+msgctxt "backend"
+msgid "Debug Mode"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2658
+msgctxt "backend"
+msgid "(If you checked so cookie will not hide even you click accept button.)"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2668
+msgctxt "backend"
+msgid "Preloader"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2669
+msgctxt "backend"
+msgid "Show preloader for pre-loading your website."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2679
+msgctxt "backend"
+msgid "Show Preloader"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2695
+msgctxt "backend"
+msgid "Show Logo"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2702 inc/meta-boxes.php:174
+msgctxt "backend"
+msgid "Custom Logo"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2710
+msgctxt "backend"
+msgid "Logo"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2722
+msgctxt "backend"
+msgid "Show Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2729
+#: customizer/class-customizer-base.php:3085
+#: customizer/class-customizer-base.php:3102
+msgctxt "backend"
+msgid "Custom Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2739
+msgctxt "backend"
+msgid "Text"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2788
+msgctxt "backend"
+msgid "Show Animation"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2811
+msgctxt "backend"
+msgid "Animation Color"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2820
+msgctxt "backend"
+msgid "Typography"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2824
+msgctxt "backend"
+msgid "Heading"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2828
+msgctxt "backend"
+msgid "Menu"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2832
+msgctxt "backend"
+msgid "Body"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2836
+msgctxt "backend"
+msgid "Global Settings"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2854
+msgctxt "backend"
+msgid "Heading Font Family"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2872
+msgctxt "backend"
+msgid "Heading Font Weight"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2876
+#: customizer/class-customizer-base.php:2916
+#: customizer/class-customizer-base.php:2956
+msgctxt "backend"
+msgid "Important: Not all fonts support every font-weight."
+msgstr ""
+
+#: customizer/class-customizer-base.php:2894
+msgctxt "backend"
+msgid "Body Font Family"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2912
+msgctxt "backend"
+msgid "Body Font Weight"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2934
+msgctxt "backend"
+msgid "Menu Font Family"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2952
+msgctxt "backend"
+msgid "Menu Font Weight"
+msgstr ""
+
+#: customizer/class-customizer-base.php:2967
+msgctxt "backend"
+msgid "Font Subsets"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3076
+#: customizer/class-customizer-base.php:3093
+msgctxt "backend"
+msgid "Language Switcher"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3079
+#: customizer/class-customizer-base.php:3096
+msgctxt "backend"
+msgid "Tagline"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3082
+#: customizer/class-customizer-base.php:3099 functions.php:111
+msgctxt "backend"
+msgid "Toolbar Menu"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3109
+msgctxt "backend"
+msgid "Extra Light: 100"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3110
+msgctxt "backend"
+msgid "Light: 200"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3111
+msgctxt "backend"
+msgid "Book: 300"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3112
+msgctxt "backend"
+msgid "Normal: 400"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3113
+msgctxt "backend"
+msgid "Semibold: 600"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3114
+msgctxt "backend"
+msgid "Bold: 700"
+msgstr ""
+
+#: customizer/class-customizer-base.php:3115
+msgctxt "backend"
+msgid "Extra Bold: 800"
+msgstr ""
+
+#: customizer/class-customizer-control.php:45
+msgid "Default"
+msgstr ""
+
+#: customizer/class-customizer-control.php:160
+msgctxt "backend"
+msgid "http://"
+msgstr ""
+
+#: customizer/titlebar.php:5
+msgid "Titlebar"
+msgstr ""
+
+#: customizer/titlebar.php:14
+msgid "Titlebar Layout"
+msgstr ""
+
+#: customizer/titlebar.php:20
+msgid "Titlebar (Left Align)"
+msgstr ""
+
+#: customizer/titlebar.php:21
+msgid "Titlebar (Center Align)"
+msgstr ""
+
+#: customizer/titlebar.php:22
+msgid "No Titlebar"
+msgstr ""
+
+#: customizer/titlebar.php:32
+msgid "Titlebar Style"
+msgstr ""
+
+#: customizer/titlebar.php:38
+msgid "Dark (for dark backgrounds)"
+msgstr ""
+
+#: customizer/titlebar.php:39
+msgid "Light (for light backgrounds)"
+msgstr ""
+
+#: customizer/titlebar.php:48
+msgid "Titlebar Background"
+msgstr ""
+
+#: customizer/titlebar.php:54 inc/meta-boxes.php:96
+#: template-parts/titlebar.php:61
+msgid "Blog"
+msgstr ""
+
+#: customizer/titlebar.php:59
+msgid "Blog Title: "
+msgstr ""
+
+#: customizer/titlebar.php:66 template-parts/titlebar.php:62
+msgid "Shop"
+msgstr ""
+
+#: customizer/titlebar.php:71
+msgid "WooCommerce Title: "
+msgstr ""
+
+#: customizer/titlebar.php:82
+msgid "Right Element"
+msgstr ""
+
+#: customizer/titlebar.php:88
+msgid "Nothing"
+msgstr ""
+
+#: customizer/titlebar.php:89
+msgid "Back Button"
+msgstr ""
+
+#: customizer/titlebar.php:90
+msgid "Breadcrumb"
+msgstr ""
+
+#: functions.php:109
+msgctxt "backend"
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:110
+msgctxt "backend"
+msgid "Offcanvas Menu"
+msgstr ""
+
+#: functions.php:112
+msgctxt "backend"
+msgid "Copyright Menu"
+msgstr ""
+
+#: inc/breadcrumbs.php:46
+msgid "Category"
+msgstr ""
+
+#: inc/breadcrumbs.php:49 template-parts/headers/header-mobile.php:41
+#: template-parts/headers/header-mobile.php:65
+msgid "Search"
+msgstr ""
+
+#: inc/breadcrumbs.php:112
+msgid "Tag"
+msgstr ""
+
+#: inc/breadcrumbs.php:116
+msgid "Articles by"
+msgstr ""
+
+#: inc/breadcrumbs.php:118
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumbs.php:121 search.php:39
+msgid "Page"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:912
+#: inc/class-tgm-plugin-activation.php:2618
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1206
+#: inc/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/enqueue.php:61
+msgctxt "Libre Franklin font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/extras.php:73
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/extras.php:79
+msgid "Unlock"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/extras.php:199
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:203 inc/extras.php:227
+msgid "Edit Comment"
+msgstr ""
+
+#: inc/extras.php:207
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: inc/menu_options.php:124
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: inc/menu_options.php:128
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/menu_options.php:181 inc/meta-boxes.php:628
+msgctxt "backend"
+msgid "URL"
+msgstr ""
+
+#: inc/menu_options.php:188
+msgctxt "backend"
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/menu_options.php:194
+msgctxt "backend"
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/menu_options.php:202
+msgctxt "backend"
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/menu_options.php:208
+msgctxt "backend"
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/menu_options.php:214
+msgctxt "backend"
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/menu_options.php:224
+msgctxt "backend"
+msgid "UiKit Icon"
+msgstr ""
+
+#: inc/menu_options.php:229
+#, php-format
+msgctxt "backend"
+msgid ""
+"Input uikit icon class to show this menu icon. You can see %s here. For "
+"example: home, cart, mail"
+msgstr ""
+
+#: inc/menu_options.php:235
+msgctxt "backend"
+msgid "Dropdown Columns"
+msgstr ""
+
+#: inc/menu_options.php:251
+msgctxt "backend"
+msgid "Dropdown Style"
+msgstr ""
+
+#: inc/menu_options.php:264
+msgctxt "backend"
+msgid "Dropdown Alignment"
+msgstr ""
+
+#: inc/menu_options.php:279
+msgctxt "backend"
+msgid "Dropdown Menu Background"
+msgstr ""
+
+#: inc/menu_options.php:288
+msgid "No image selected"
+msgstr ""
+
+#: inc/menu_options.php:302
+msgctxt "backend"
+msgid "Dropdown Classic"
+msgstr ""
+
+#: inc/menu_options.php:315
+msgctxt "backend"
+msgid "Move"
+msgstr ""
+
+#: inc/menu_options.php:316
+msgctxt "backend"
+msgid "Up one"
+msgstr ""
+
+#: inc/menu_options.php:317
+msgctxt "backend"
+msgid "Down one"
+msgstr ""
+
+#: inc/menu_options.php:320
+msgctxt "backend"
+msgid "To the top"
+msgstr ""
+
+#: inc/meta-box/inc/core.php:35
+msgid "https://metabox.io/docs/"
+msgstr ""
+
+#: inc/meta-box/inc/core.php:35
+msgid "Documentation"
+msgstr ""
+
+#: inc/meta-box/inc/core.php:36
+msgid "https://metabox.io/plugins/"
+msgstr ""
+
+#: inc/meta-box/inc/core.php:36
+msgid "Extensions"
+msgstr ""
+
+#: inc/meta-box/inc/field.php:356
+msgid "+ Add more"
+msgstr ""
+
+#: inc/meta-box/inc/fields/autocomplete.php:20
+#: inc/meta-box/inc/fields/autocomplete.php:81
+#: inc/meta-box/inc/fields/autocomplete.php:93
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/button.php:32
+msgid "Click me"
+msgstr ""
+
+#: inc/meta-box/inc/fields/checkbox.php:50
+msgid "Yes"
+msgstr ""
+
+#: inc/meta-box/inc/fields/checkbox.php:50
+msgid "No"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-input.php:19
+msgid "Select File"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-input.php:38
+#: inc/meta-box/inc/fields/select.php:87
+msgid "Select"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-input.php:40
+msgid "Remove"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:21
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:23
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:53
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:66
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:121
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:122
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/inc/fields/input-list.php:90
+msgid "Select All / None"
+msgstr ""
+
+#: inc/meta-box/inc/fields/key-value.php:126
+msgid "Key"
+msgstr ""
+
+#: inc/meta-box/inc/fields/key-value.php:127
+msgid "Value"
+msgstr ""
+
+#: inc/meta-box/inc/fields/map.php:64
+msgid "Find Address"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:24
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:25
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:26
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:27
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:28
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:29
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:30
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:33
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:34
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: inc/meta-box/inc/fields/media.php:35
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: inc/meta-box/inc/fields/oembed.php:64
+msgid "Embed HTML not available."
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:36
+msgid "Select a post"
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:41 inc/meta-box/inc/fields/taxonomy.php:52
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: inc/meta-box/inc/fields/select-advanced.php:45
+msgid "Select an item"
+msgstr ""
+
+#: inc/meta-box/inc/fields/select.php:87
+msgid "All"
+msgstr ""
+
+#: inc/meta-box/inc/fields/select.php:87
+msgid "None"
+msgstr ""
+
+#: inc/meta-box/inc/fields/taxonomy.php:47
+msgid "Select a term"
+msgstr ""
+
+#: inc/meta-box/inc/fields/thickbox-image.php:55
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/user.php:30
+msgid "Select an user"
+msgstr ""
+
+#: inc/meta-box/inc/validation.php:47
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: inc/meta-boxes.php:87
+msgid "Layout"
+msgstr ""
+
+#: inc/meta-boxes.php:90
+msgid "Page Titlebar"
+msgstr ""
+
+#: inc/meta-boxes.php:93
+msgid "Footer"
+msgstr ""
+
+#: inc/meta-boxes.php:110 inc/meta-boxes.php:188 inc/meta-boxes.php:215
+#: inc/meta-boxes.php:230 inc/meta-boxes.php:246 inc/meta-boxes.php:292
+#: inc/meta-boxes.php:335 inc/meta-boxes.php:349
+msgctxt "backend"
+msgid "Default (as customizer)"
+msgstr ""
+
+#: inc/meta-boxes.php:121
+msgctxt "backend"
+msgid "Page Layout"
+msgstr ""
+
+#: inc/meta-boxes.php:132
+msgctxt "backend"
+msgid ""
+"<strong>Default:</strong> For usage normal Text Pages<br /> <strong>Full "
+"Width:</strong> For pages using Elementor (commonly used)<br /> "
+"<strong>Sidebar Left:</strong> Sidebar Left Template<br /> <strong>Sidebar "
+"Right:</strong> Sidebar Right Template"
+msgstr ""
+
+#: inc/meta-boxes.php:137
+msgctxt "backend"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:143
+msgctxt "backend"
+msgid "Select the sidebar you wish to display on this page."
+msgstr ""
+
+#: inc/meta-boxes.php:169
+msgctxt "backend"
+msgid "Override the header style for this page."
+msgstr ""
+
+#: inc/meta-boxes.php:179
+msgctxt "backend"
+msgid "Upload Custom Logo for this page."
+msgstr ""
+
+#: inc/meta-boxes.php:253
+msgctxt "backend"
+msgid "Override the header type for this page."
+msgstr ""
+
+#: inc/meta-boxes.php:276 inc/meta-boxes.php:543
+msgctxt "backend"
+msgid "Default (set in Theme Customizer)"
+msgstr ""
+
+#: inc/meta-boxes.php:369 inc/meta-boxes.php:437
+msgctxt "backend"
+msgid "Grid Column (Large)"
+msgstr ""
+
+#: inc/meta-boxes.php:387 inc/meta-boxes.php:454
+msgctxt "backend"
+msgid "Grid Column (Medium)"
+msgstr ""
+
+#: inc/meta-boxes.php:405 inc/meta-boxes.php:472
+msgctxt "backend"
+msgid "Grid Column (Small)"
+msgstr ""
+
+#: inc/meta-boxes.php:422
+msgctxt "backend"
+msgid "Limit"
+msgstr ""
+
+#: inc/meta-boxes.php:424
+msgctxt "backend"
+msgid "Enter limit number for how much item you want to show per page."
+msgstr ""
+
+#: inc/meta-boxes.php:444 inc/meta-boxes.php:462 inc/meta-boxes.php:483
+msgctxt "backend"
+msgid "5 Columns"
+msgstr ""
+
+#: inc/meta-boxes.php:445 inc/meta-boxes.php:463 inc/meta-boxes.php:484
+msgctxt "backend"
+msgid "6 Columns"
+msgstr ""
+
+#: inc/meta-boxes.php:496
+msgctxt "backend"
+msgid "Blog Post Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:502
+msgid "Post Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:505
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:508
+msgid "Video Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:511
+msgid "Audio Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:514
+msgid "Link Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:517
+msgid "Quote Settings"
+msgstr ""
+
+#: inc/meta-boxes.php:597
+msgctxt "backend"
+msgid "Hide Featured Image?"
+msgstr ""
+
+#: inc/meta-boxes.php:601
+msgctxt "backend"
+msgid ""
+"Check this if you want to hide the Featured Image / Gallery on the Blog "
+"Detail Page"
+msgstr ""
+
+#: inc/meta-boxes.php:607
+msgctxt "backend"
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/meta-boxes.php:608
+msgctxt "backend"
+msgid "You can upload up to 30 gallery images for a slideshow"
+msgstr ""
+
+#: inc/meta-boxes.php:617
+msgctxt "backend"
+msgid "Audio Embed Code"
+msgstr ""
+
+#: inc/meta-boxes.php:619
+msgctxt "backend"
+msgid "Please enter the Audio Embed Code here."
+msgstr ""
+
+#: inc/meta-boxes.php:630
+msgctxt "backend"
+msgid "Enter a URL for your link post format. (Don't forget the http://)"
+msgstr ""
+
+#: inc/meta-boxes.php:639
+msgctxt "backend"
+msgid "Quote"
+msgstr ""
+
+#: inc/meta-boxes.php:641
+msgctxt "backend"
+msgid "Please enter the text for your quote here."
+msgstr ""
+
+#: inc/meta-boxes.php:648
+msgctxt "backend"
+msgid "Quote Source"
+msgstr ""
+
+#: inc/meta-boxes.php:650
+msgctxt "backend"
+msgid "Please enter the Source of the Quote here."
+msgstr ""
+
+#: inc/meta-boxes.php:660
+msgctxt "backend"
+msgid "Video Source"
+msgstr ""
+
+#: inc/meta-boxes.php:664
+msgctxt "backend"
+msgid "Video URL"
+msgstr ""
+
+#: inc/meta-boxes.php:665
+msgctxt "backend"
+msgid "Embed Code"
+msgstr ""
+
+#: inc/meta-boxes.php:672
+msgctxt "backend"
+msgid "Video URL/Embed Code"
+msgstr ""
+
+#: inc/meta-boxes.php:674
+msgctxt "backend"
+msgid ""
+"If you choose Video URL you can just insert the URL of the <a href=\"http://"
+"codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" "
+"target=\"_blank\">Supported Video Site</a>. Otherwise insert the full embed "
+"code."
+msgstr ""
+
+#: inc/meta-boxes.php:729
+msgctxt "backend"
+msgid "FAQ Additional"
+msgstr ""
+
+#: inc/meta-boxes.php:734
+msgctxt "backend"
+msgid "Show FAQ Icon"
+msgstr ""
+
+#: inc/meta-boxes.php:745
+msgctxt "backend"
+msgid "FAQ Icon"
+msgstr ""
+
+#: inc/meta-boxes.php:747
+msgctxt "backend"
+msgid ""
+"Please type a fontawesome icon name for your FAQ. for example: fa fa-home"
+msgstr ""
+
+#: inc/plugin-activation.php:30
+msgctxt "backend"
+msgid "Bangla FAQ"
+msgstr ""
+
+#: inc/plugin-activation.php:37
+msgctxt "backend"
+msgid "Bangla Testimonials"
+msgstr ""
+
+#: inc/plugin-activation.php:44
+msgctxt "backend"
+msgid "Bangla Portfolio"
+msgstr ""
+
+#: inc/plugin-activation.php:51
+msgctxt "backend"
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/plugin-activation.php:57
+msgctxt "backend"
+msgid "Element Pack - Elementor Addon"
+msgstr ""
+
+#: inc/plugin-activation.php:64
+msgctxt "backend"
+msgid "SVG Support"
+msgstr ""
+
+#: inc/sidebar-generator.php:108 inc/sidebar-generator.php:114
+#: inc/sidebar-generator.php:219
+msgctxt "backend"
+msgid "Please give a suitable name for sidebar."
+msgstr ""
+
+#: inc/sidebar-generator.php:117
+msgctxt "backend"
+msgid "Sidebar already exists, please use a different name."
+msgstr ""
+
+#: inc/sidebar-generator.php:164
+msgctxt "backend"
+msgid "Sidebar does not exist."
+msgstr ""
+
+#: inc/sidebar-generator.php:180 inc/sidebar-generator.php:259
+msgctxt "backend"
+msgid "No custom sidebars generated"
+msgstr ""
+
+#: inc/sidebar-generator.php:190
+msgctxt "backend"
+msgid "Sidebars"
+msgstr ""
+
+#: inc/sidebar-generator.php:190 inc/sidebar-generator.php:226
+msgctxt "backend"
+msgid "Sidebar Generator"
+msgstr ""
+
+#: inc/sidebar-generator.php:202
+msgctxt "backend"
+msgid "Are you sure you want to remove"
+msgstr ""
+
+#: inc/sidebar-generator.php:202
+msgctxt "backend"
+msgid "This will remove any widgets you have assigned to this sidebar."
+msgstr ""
+
+#: inc/sidebar-generator.php:211
+msgctxt "backend"
+msgid "Sidebar Name:"
+msgstr ""
+
+#: inc/sidebar-generator.php:226
+msgctxt "backend"
+msgid "Add a sidebar"
+msgstr ""
+
+#: inc/sidebar-generator.php:226
+msgctxt "backend"
+msgid "Add Sidebar"
+msgstr ""
+
+#: inc/sidebar-generator.php:228
+msgctxt "backend"
+msgid ""
+"The sidebar name is for your use only. It will not be visible to any of your "
+"visitors. \n"
+"\t\t\t\tA CSS class is assigned to each of your sidebar, use this styling to "
+"customize the sidebars."
+msgstr ""
+
+#: inc/sidebar-generator.php:235
+msgctxt "backend"
+msgid "Name"
+msgstr ""
+
+#: inc/sidebar-generator.php:236
+msgctxt "backend"
+msgid "CSS class"
+msgstr ""
+
+#: inc/sidebar-generator.php:237
+msgctxt "backend"
+msgid "Remove"
+msgstr ""
+
+#: inc/sidebar-generator.php:252
+msgctxt "backend"
+msgid "Remove this sidebar"
+msgstr ""
+
+#: inc/sidebar-generator.php:252
+msgctxt "backend"
+msgid "remove"
+msgstr ""
+
+#: inc/sidebars.php:6
+msgctxt "backend"
+msgid "Blog Widgets"
+msgstr ""
+
+#: inc/sidebars.php:6
+msgctxt "backend"
+msgid "These are widgets for the Blog sidebar."
+msgstr ""
+
+#: inc/sidebars.php:8
+msgctxt "backend"
+msgid "Header Bar"
+msgstr ""
+
+#: inc/sidebars.php:8
+msgctxt "backend"
+msgid ""
+"These are widgets for showing widgets (such as countdown, search small ads "
+"etc) on header top right corner ."
+msgstr ""
+
+#: inc/sidebars.php:12
+msgctxt "backend"
+msgid "Search Results Widgets"
+msgstr ""
+
+#: inc/sidebars.php:12
+msgctxt "backend"
+msgid ""
+"These are widgets for the Search Results sidebar. These sidebar widgets show "
+"on right side."
+msgstr ""
+
+#: inc/sidebars.php:17
+msgctxt "backend"
+msgid "Shop Widgets"
+msgstr ""
+
+#: inc/sidebars.php:17
+msgctxt "backend"
+msgid "These are widgets for the Shop sidebar."
+msgstr ""
+
+#: inc/sidebars.php:22
+msgctxt "backend"
+msgid "Forum Widgets"
+msgstr ""
+
+#: inc/sidebars.php:22
+msgctxt "backend"
+msgid "These are widgets for the Forum sidebar."
+msgstr ""
+
+#: inc/sidebars.php:26
+msgctxt "backend"
+msgid "Bottom Widgets"
+msgstr ""
+
+#: inc/sidebars.php:26
+msgctxt "backend"
+msgid "These are widgets for the bottom area on footer position."
+msgstr ""
+
+#: inc/sidebars.php:29
+msgctxt "backend"
+msgid "Footer Widgets 1"
+msgstr ""
+
+#: inc/sidebars.php:29 inc/sidebars.php:31 inc/sidebars.php:34
+#: inc/sidebars.php:36
+msgctxt "backend"
+msgid "These are widgets for the Footer."
+msgstr ""
+
+#: inc/sidebars.php:31
+msgctxt "backend"
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: inc/sidebars.php:34
+msgctxt "backend"
+msgid "Footer Widgets 3"
+msgstr ""
+
+#: inc/sidebars.php:36
+msgctxt "backend"
+msgid "Footer Widgets 4"
+msgstr ""
+
+#: inc/sidebars.php:39
+msgctxt "backend"
+msgid "Off-Canvas"
+msgstr ""
+
+#: inc/sidebars.php:39
+msgctxt "backend"
+msgid ""
+"These are widgets for off-canvas bar (it's only show in small device mode) "
+"and it's show under off-canvas menu."
+msgstr ""
+
+#: inc/sidebars.php:66
+msgctxt "backend"
+msgid "Set Extra Large Screen Visiblity."
+msgstr ""
+
+#: inc/sidebars.php:69
+msgctxt "backend"
+msgid "xLarge"
+msgstr ""
+
+#: inc/sidebars.php:73
+msgctxt "backend"
+msgid "Set Large Screen Visiblity."
+msgstr ""
+
+#: inc/sidebars.php:80
+msgctxt "backend"
+msgid "Set Medium Screen Visiblity."
+msgstr ""
+
+#: inc/sidebars.php:88
+msgctxt "backend"
+msgid "Set Small Screen Visiblity."
+msgstr ""
+
+#: inc/sidebars.php:98
+msgctxt "backend"
+msgid "Select Widget Style"
+msgstr ""
+
+#: inc/sidebars.php:112
+msgctxt "backend"
+msgid "Center the widgets content"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/woocommerce.php:96 template-parts/woocommerce-cart.php:16
+msgid "View Cart"
+msgstr ""
+
+#: inc/woocommerce.php:109 template-parts/woocommerce-cart.php:28
+msgid "Cart is Empty"
+msgstr ""
+
+#: inc/woocommerce.php:111 template-parts/woocommerce-cart.php:30
+#, php-format
+msgid "%s Item in cart"
+msgid_plural "%s Items in cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:16
+msgid "New Search"
+msgstr ""
+
+#: search.php:18
+msgid "If you are not happy with the results below please do another search"
+msgstr ""
+
+#: search.php:32 search.php:60 template-parts/post-format/entry-quote.php:11
+#: template-parts/post-loop/entry-quote.php:11
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: search.php:37
+msgid "Blog Post"
+msgstr ""
+
+#: search.php:41
+msgid "Event"
+msgstr ""
+
+#: search.php:43
+msgid "Campaign"
+msgstr ""
+
+#: search.php:45
+msgid "Product"
+msgstr ""
+
+#: search.php:63 template-parts/post-format/meta.php:14
+#: template-parts/post-loop/meta.php:14
+#, php-format
+msgid "Written by %s."
+msgstr ""
+
+#: search.php:67 template-parts/post-format/meta.php:22
+#: template-parts/post-loop/meta.php:22
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: search.php:81 template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:5 template-parts/search.php:49 template-parts/search.php:58
+#: template-parts/search.php:82
+msgid "Search..."
+msgstr ""
+
+#: single-jetpack-testimonial.php:26 single-portfolio.php:61 single.php:64
+#: template-parts/blognextprev.php:7
+msgid "Previous"
+msgstr ""
+
+#: single-jetpack-testimonial.php:32 single-portfolio.php:67 single.php:70
+#: template-parts/blognextprev.php:13
+msgid "Next"
+msgstr ""
+
+#: single-portfolio.php:29 single.php:30 template-parts/related.php:7
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/author.php:26
+msgid "About"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:38
+#: template-parts/portfolio/content.php:11
+#: template-parts/post-format/content.php:20
+#: template-parts/post-loop/content.php:20
+#: template-parts/testimonials/content.php:11
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/cookie-bar.php:23
+msgid "I Understand"
+msgstr ""
+
+#: template-parts/cookie-bar.php:25
+msgid "Disable Cookies"
+msgstr ""
+
+#: template-parts/cookie-bar.php:27
+msgid "Privacy Policy"
+msgstr ""
+
+#: template-parts/copyright.php:45
+#: template-parts/headers/header-default.php:492
+msgid "Copyright"
+msgstr ""
+
+#: template-parts/copyright.php:45
+msgid "All Rights Reserved by"
+msgstr ""
+
+#: template-parts/headers/header-default.php:309
+#: template-parts/headers/header-mobile.php:35
+#: template-parts/headers/header-mobile.php:71
+msgid "Menu"
+msgstr ""
+
+#: template-parts/headers/header-mobile.php:122
+msgid ""
+"Ops! You don't have any menu or widget in Off-canvas. Please add some menu "
+"in Off-canvas menu position or add some widget in Off-canvas widget position "
+"for view them here."
+msgstr ""
+
+#: template-parts/portfolio/entry.php:28
+msgid "Company/Owner Name"
+msgstr ""
+
+#: template-parts/portfolio/entry.php:31
+msgid "Starting Date"
+msgstr ""
+
+#: template-parts/portfolio/entry.php:34
+msgid "Complition Date"
+msgstr ""
+
+#: template-parts/portfolio/entry.php:38
+msgid "Project Link"
+msgstr ""
+
+#: template-parts/portfolio/entry.php:38
+msgid "Click Here "
+msgstr ""
+
+#: template-parts/portfolio/entry.php:75 template-parts/post-format/meta.php:33
+msgid "Edit this post"
+msgstr ""
+
+#: template-parts/portfolio/read-more.php:3
+#: template-parts/post-format/read-more.php:4
+#: template-parts/post-loop/read-more.php:4
+msgid "Read More..."
+msgstr ""
+
+#: template-parts/portfolio/sidebar-meta.php:31
+msgid "Info"
+msgstr ""
+
+#: template-parts/portfolio/sidebar-meta.php:44
+msgid "Email: "
+msgstr ""
+
+#: template-parts/portfolio/sidebar-meta.php:54
+msgid "Phone Number: "
+msgstr ""
+
+#: template-parts/portfolio/sidebar-meta.php:64
+msgid "Appointment Now"
+msgstr ""
+
+#: template-parts/portfolio/title.php:6 template-parts/post-format/title.php:7
+#: template-parts/post-loop/title.php:7
+msgid "Featured"
+msgstr ""
+
+#: template-parts/post-format/entry-link.php:11
+#: template-parts/post-loop/entry-link.php:11
+#, php-format
+msgid "Link to %s"
+msgstr ""
+
+#: template-parts/post-format/meta.php:29
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/post-format/meta.php:29
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/post-format/meta.php:29
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/preloader.php:18
+#, php-format
+msgid "Please Wait, %s is Loading..."
+msgstr ""
+
+#: template-parts/search.php:101
+msgid "Type Word and Hit Enter"
+msgstr ""
+
+#: template-parts/titlebar.php:84 template-parts/titlebar.php:139
+#: template-parts/titlebar.php:164 template-parts/titlebar.php:221
+msgid "Back"
+msgstr ""
+
+#: template-parts/titlebar.php:104 template-parts/titlebar.php:185
+msgid "Search results for:"
+msgstr ""
+
+#: template-parts/titlebar.php:110 template-parts/titlebar.php:191
+msgid "Posts Tagged:"
+msgstr ""
+
+#: template-parts/titlebar.php:111 template-parts/titlebar.php:112
+#: template-parts/titlebar.php:113 template-parts/titlebar.php:192
+#: template-parts/titlebar.php:193 template-parts/titlebar.php:194
+msgid "Archive for"
+msgstr ""
+
+#: template-parts/titlebar.php:114 template-parts/titlebar.php:195
+msgid "Author Archive for"
+msgstr ""
+
+#: template-parts/titlebar.php:115 template-parts/titlebar.php:196
+msgid "Blog Archives"
+msgstr ""
+
+#: template-parts/titlebar.php:124 template-parts/titlebar.php:205
+msgid "Oops, this Page could not be found."
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:28
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Bangla"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.broxme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Bangla Theme designed by BroxMe Technology. This theme specially design for "
+"elementor page builder. "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BroxMe Technology"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blank Page */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Testimonials */"
+msgstr ""

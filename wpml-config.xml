@@ -1,0 +1,47 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">faq</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">faq_filter</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="copy-once">bangla_page_layout</custom-field>
+    <custom-field action="copy-once">bangla_sidebar</custom-field>
+    <custom-field action="copy-once">bangla_show_rev_slider</custom-field>
+    <custom-field action="copy-once">bangla_titlebar</custom-field>
+    <custom-field action="copy-once">bangla_titlebar_layout</custom-field>
+    <custom-field action="copy-once">bangla_titlebar_txt_style</custom-field>
+    <custom-field action="copy-once">bangla_grid_columns</custom-field>
+    <custom-field action="copy-once">bangla_grid_columns_medium</custom-field>
+    <custom-field action="copy-once">bangla_grid_columns_small</custom-field>
+    <custom-field action="copy-once">bangla_blog_columns</custom-field>
+    <custom-field action="copy-once">bangla_blog_columns_medium</custom-field>
+    <custom-field action="copy-once">bangla_blog_columns_small</custom-field>
+    <custom-field action="copy-once">bangla_toolbar</custom-field>
+    <custom-field action="copy-once">bangla_footer_widgets</custom-field>
+    <custom-field action="copy-once">bangla_copyright</custom-field>
+    <custom-field action="copy-once">bangla_titlebar_bg_style</custom-field>
+    <custom-field action="copy-once">bangla_titlebar_bg_img</custom-field>
+    <custom-field action="copy-once">bangla_service_categories1</custom-field>
+    <custom-field action="copy-once">bangla_header_transparent</custom-field>
+    <custom-field action="copy-once">bangla_bgstyle</custom-field>
+    <custom-field action="copy-once">bangla_hideimage</custom-field>
+    <custom-field action="copy-once">bangla_blog_videosrc</custom-field>
+    <custom-field action="copy-once">bangla_blog_gallery</custom-field>
+    <custom-field action="copy-once">bangla_blog_quote</custom-field>
+    <custom-field action="copy-once">bangla_blog_video</custom-field>
+    <custom-field action="copy-once">bangla_blog_audio</custom-field>
+    <custom-field action="copy-once">bangla_blog_link</custom-field>
+    <custom-field action="copy-once">bangla_blog_limit</custom-field>
+    <custom-field action="copy-once">broxme_wp_show_faq_icon</custom-field>
+    <custom-field action="copy-once">broxme_wp_faq_icon</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="theme_mods_bangla">
+      <key name="bangla_logo_default"/>
+      <key name="bangla_toolbar_social"/>
+      <key name="bangla_cookie_message"/>
+    </key>
+  </admin-texts>
+</wpml-config>

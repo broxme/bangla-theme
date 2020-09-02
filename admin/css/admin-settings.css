@@ -1,0 +1,797 @@
+.bangla-layout-select li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+.bangla-layout-select li, 
+.bangla-layout-select label {
+    display: inline-block;
+}
+
+.bangla-layout-select input {
+    display: none;
+}
+
+.bangla-layout-select input:checked + img {
+    outline: 2px solid #00a0d2;
+}
+
+.rs-update-notice-wrap {
+    display: none;
+}
+
+.wp-list-table.plugins tr[data-slug='slider-revolution'] + tr.plugin-update-tr,
+.wp-list-table.plugins tr[data-slug='slider-revolution'] + tr.plugin-update-tr + tr.plugin-update-tr,
+.wp-list-table.plugins tr[data-slug='wpbakery-visual-composer'] + tr.plugin-update-tr,
+.wp-list-table.plugins tr[data-slug='wpbakery-visual-composer'] + tr.plugin-update-tr + tr.plugin-update-tr {
+    display: none;
+}
+.bangla-alert {
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 20px;
+    background: #ebf7fd;
+    color: #2d7091;
+    display: block;
+}
+
+.bangla-alert.warning {
+    background: #fffceb;
+    color: #e28327;
+}
+
+.bangla-alert.danger {
+    background: #fff1f0;
+    color: #d85030;
+}
+.bangla-alert.success {
+    background: #f2fae3;
+    color: #659f13;
+}
+
+.menu-item:not(.menu-item-depth-0) .bangla-menu-setting-columns,
+.menu-item:not(.menu-item-depth-0) .bangla-menu-setting-fullwidth,
+.menu-item:not(.menu-item-depth-0) .bangla-menu-setting-alignment {
+    display: none;
+}
+
+.menu-item.menu-item-depth-0 .bangla-menu-setting-dropdown-classic {
+    display: none;
+}
+.bangla-menu-setting-background .attachment-media-view .placeholder {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.bangla-menu-setting-background .remove_image {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 14px;  
+}
+.bangla-menu-setting-background .remove_image:hover {
+    color: darkred;
+}
+
+
+
+/* widget control */
+.widget-control-actions div.alignleft {
+    margin-top: 5px;
+}
+
+.bangla-visiblity-control {
+    position: relative;
+    margin: 1em 0;
+    text-align: left;
+    display: flex;
+}
+.bangla-visiblity-control li {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+
+.bangla-visiblity-control li input {
+    display: none;
+}
+
+.bangla-visiblity-control li label {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bangla-visiblity-control li i:before,
+.bangla-visiblity-control li i:before {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+}
+
+.bangla-visiblity-control li.display-xlarge-field i:before {
+    content: "\f472";
+}
+.bangla-visiblity-control li.display-large-field i:before {
+    content: "\f547";
+}
+.bangla-visiblity-control li.display-medium-field i:before {
+    content: "\f471";
+}
+.bangla-visiblity-control li.display-small-field i:before {
+    content: "\f470";
+}
+
+.bangla-visiblity-control li input:checked + i:before {
+    opacity: 0.3;
+}
+.bangla-visiblity-control li input:checked + i:after {
+    content: "\f335";
+    z-index: 3;
+    color: red;
+}
+
+
+/* RTL Style */
+.rtl .bangla-visiblity-control {
+    text-align: right;
+}
+.rtl .bangla-visiblity-control li i:before,
+.rtl .bangla-visiblity-control li i:before {
+    right: 5px;
+}
+
+
+
+.bangla-admin-container, 
+.demo-import-message{
+    position: relative;
+    overflow: auto;
+    margin: 24px 0;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    font-size: 14px;
+    line-height: 2.1em;
+}
+
+.demo-import-message-title {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bangla-admin-container h1{
+    margin: 0 0 30px 0;
+}
+
+.demo-import-message{
+    padding: 100px;
+    text-align: center;
+}
+
+.bangla-admin-container p, .demo-import-message p{
+    font-size: 15px;
+}
+
+.success h1{
+    color: #72B521;
+}
+
+.bangla-admin-container-note{
+    background: #fff8e3;
+    padding: 20px 20px 20px 20px;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.button-primary.size_big {
+    font-size: 16px;
+    padding: 0 22px;
+    height: 38px;
+}
+
+.bangla-admin-container-error{
+    background: #FAE8E9;
+    color: #99151D;
+    padding: 6px 20px;
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?e8says');
+  src:  url('../fonts/icomoon.eot?e8says#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e8says') format('truetype'),
+    url('../fonts/icomoon.woff?e8says') format('woff'),
+    url('../fonts/icomoon.svg?e8says#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vc-icons-selector i:not(.fa) {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vc-icons-selector i.album:before {
+  content: "\e900";
+}
+.vc-icons-selector i.arrow-down:before {
+  content: "\e901";
+}
+.vc-icons-selector i.arrow-left:before {
+  content: "\e902";
+  color: #000;
+}
+.vc-icons-selector i.arrow-right:before {
+  content: "\e903";
+  color: #000;
+}
+.vc-icons-selector i.arrow-up:before {
+  content: "\e904";
+}
+.vc-icons-selector i.ban:before {
+  content: "\e905";
+  color: #000;
+}
+.vc-icons-selector i.behance:before {
+  content: "\e906";
+}
+.vc-icons-selector i.bell:before {
+  content: "\e907";
+  color: #000;
+}
+.vc-icons-selector i.bold:before {
+  content: "\e908";
+}
+.vc-icons-selector i.bolt:before {
+  content: "\e909";
+}
+.vc-icons-selector i.bookmark:before {
+  content: "\e90a";
+  color: #000;
+}
+.vc-icons-selector i.calendar:before {
+  content: "\e90b";
+}
+.vc-icons-selector i.camera:before {
+  content: "\e90c";
+  color: #000;
+}
+.vc-icons-selector i.cart:before {
+  content: "\e90d";
+}
+.vc-icons-selector i.check:before {
+  content: "\e90e";
+  color: #000;
+}
+.vc-icons-selector i.chevron-down:before {
+  content: "\e90f";
+  color: #000;
+}
+.vc-icons-selector i.chevron-left:before {
+  content: "\e910";
+  color: #000;
+}
+.vc-icons-selector i.chevron-right:before {
+  content: "\e911";
+  color: #000;
+}
+.vc-icons-selector i.chevron-up:before {
+  content: "\e912";
+  color: #000;
+}
+.vc-icons-selector i.clock:before {
+  content: "\e913";
+  color: #000;
+}
+.vc-icons-selector i.close:before {
+  content: "\e914";
+  color: #000;
+}
+.vc-icons-selector i.cloud-download:before {
+  content: "\e915";
+  color: #000;
+}
+.vc-icons-selector i.cloud-upload:before {
+  content: "\e916";
+  color: #000;
+}
+.vc-icons-selector i.code:before {
+  content: "\e917";
+  color: #000;
+}
+.vc-icons-selector i.cog:before {
+  content: "\e918";
+  color: #000;
+}
+.vc-icons-selector i.comment:before {
+  content: "\e919";
+}
+.vc-icons-selector i.commenting:before {
+  content: "\e91a";
+  color: #000;
+}
+.vc-icons-selector i.comments:before {
+  content: "\e91b";
+  color: #000;
+}
+.vc-icons-selector i.copy:before {
+  content: "\e91c";
+  color: #000;
+}
+.vc-icons-selector i.credit-card:before {
+  content: "\e91d";
+  color: #000;
+}
+.vc-icons-selector i.database:before {
+  content: "\e91e";
+  color: #000;
+}
+.vc-icons-selector i.desktop:before {
+  content: "\e91f";
+}
+.vc-icons-selector i.download:before {
+  content: "\e920";
+  color: #000;
+}
+.vc-icons-selector i.dribbble:before {
+  content: "\e921";
+  color: #000;
+}
+.vc-icons-selector i.expand:before {
+  content: "\e922";
+}
+.vc-icons-selector i.facebook:before {
+  content: "\e923";
+}
+.vc-icons-selector i.file:before {
+  content: "\e924";
+  color: #000;
+}
+.vc-icons-selector i.file-edit:before {
+  content: "\e925";
+  color: #000;
+}
+.vc-icons-selector i.flickr:before {
+  content: "\e926";
+}
+.vc-icons-selector i.folder:before {
+  content: "\e927";
+  color: #000;
+}
+.vc-icons-selector i.forward:before {
+  content: "\e928";
+}
+.vc-icons-selector i.foursquare:before {
+  content: "\e929";
+}
+.vc-icons-selector i.future:before {
+  content: "\e92a";
+}
+.vc-icons-selector i.git-branch:before {
+  content: "\e92b";
+  color: #000;
+}
+.vc-icons-selector i.git-fork:before {
+  content: "\e92c";
+  color: #000;
+}
+.vc-icons-selector i.github:before {
+  content: "\e92d";
+}
+.vc-icons-selector i.github-alt:before {
+  content: "\e92e";
+}
+.vc-icons-selector i.gitter:before {
+  content: "\e92f";
+}
+.vc-icons-selector i.google:before {
+  content: "\e930";
+}
+.vc-icons-selector i.google-plus:before {
+  content: "\e931";
+}
+.vc-icons-selector i.grid:before {
+  content: "\e932";
+}
+.vc-icons-selector i.happy:before {
+  content: "\e933";
+}
+.vc-icons-selector i.hashtag:before {
+  content: "\e934";
+}
+.vc-icons-selector i.heart:before {
+  content: "\e935";
+  color: #000;
+}
+.vc-icons-selector i.history:before {
+  content: "\e936";
+}
+.vc-icons-selector i.home:before {
+  content: "\e937";
+}
+.vc-icons-selector i.image:before {
+  content: "\e938";
+}
+.vc-icons-selector i.info:before {
+  content: "\e939";
+}
+.vc-icons-selector i.instagram:before {
+  content: "\e93a";
+}
+.vc-icons-selector i.italic:before {
+  content: "\e93b";
+}
+.vc-icons-selector i.joomla:before {
+  content: "\e93c";
+}
+.vc-icons-selector i.laptop:before {
+  content: "\e93d";
+}
+.vc-icons-selector i.lifesaver:before {
+  content: "\e93e";
+}
+.vc-icons-selector i.link:before {
+  content: "\e93f";
+  color: #000;
+}
+.vc-icons-selector i.linkedin:before {
+  content: "\e940";
+}
+.vc-icons-selector i.list:before {
+  content: "\e941";
+}
+.vc-icons-selector i.location:before {
+  content: "\e942";
+  color: #000;
+}
+.vc-icons-selector i.lock:before {
+  content: "\e943";
+  color: #000;
+}
+.vc-icons-selector i.mail:before {
+  content: "\e944";
+  color: #000;
+}
+.vc-icons-selector i.menu:before {
+  content: "\e945";
+}
+.vc-icons-selector i.minus:before {
+  content: "\e946";
+}
+.vc-icons-selector i.minus-circle:before {
+  content: "\e947";
+  color: #000;
+}
+.vc-icons-selector i.more:before {
+  content: "\e948";
+}
+.vc-icons-selector i.more-vertical:before {
+  content: "\e949";
+}
+.vc-icons-selector i.move:before {
+  content: "\e94a";
+}
+.vc-icons-selector i.nut:before {
+  content: "\e94b";
+  color: #000;
+}
+.vc-icons-selector i.pagekit:before {
+  content: "\e94c";
+}
+.vc-icons-selector i.paint-bucket:before {
+  content: "\e94d";
+}
+.vc-icons-selector i.pencil:before {
+  content: "\e94e";
+  color: #000;
+}
+.vc-icons-selector i.phone:before {
+  content: "\e94f";
+  color: #000;
+}
+.vc-icons-selector i.phone-landscape:before {
+  content: "\e950";
+  color: #000;
+}
+.vc-icons-selector i.pinterest:before {
+  content: "\e951";
+}
+.vc-icons-selector i.play:before {
+  content: "\e952";
+  color: #000;
+}
+.vc-icons-selector i.play-circle:before {
+  content: "\e953";
+  color: #000;
+}
+.vc-icons-selector i.plus:before {
+  content: "\e954";
+}
+.vc-icons-selector i.plus-circle:before {
+  content: "\e955";
+  color: #000;
+}
+.vc-icons-selector i.pull:before {
+  content: "\e956";
+}
+.vc-icons-selector i.push:before {
+  content: "\e957";
+}
+.vc-icons-selector i.question:before {
+  content: "\e958";
+  color: #000;
+}
+.vc-icons-selector i.quote-right:before {
+  content: "\e959";
+}
+.vc-icons-selector i.receiver:before {
+  content: "\e95a";
+  color: #000;
+}
+.vc-icons-selector i.refresh:before {
+  content: "\e95b";
+  color: #000;
+}
+.vc-icons-selector i.reply:before {
+  content: "\e95c";
+}
+.vc-icons-selector i.rss:before {
+  content: "\e95d";
+}
+.vc-icons-selector i.search:before {
+  content: "\e95e";
+  color: #000;
+}
+.vc-icons-selector i.server:before {
+  content: "\e95f";
+}
+.vc-icons-selector i.settings:before {
+  content: "\e960";
+  color: #000;
+}
+.vc-icons-selector i.shrink:before {
+  content: "\e961";
+}
+.vc-icons-selector i.sign-in:before {
+  content: "\e962";
+}
+.vc-icons-selector i.sign-out:before {
+  content: "\e963";
+}
+.vc-icons-selector i.social:before {
+  content: "\e964";
+  color: #000;
+}
+.vc-icons-selector i.soundcloud:before {
+  content: "\e965";
+}
+.vc-icons-selector i.star:before {
+  content: "\e966";
+  color: #000;
+}
+.vc-icons-selector i.strikethrough:before {
+  content: "\e967";
+}
+.vc-icons-selector i.table:before {
+  content: "\e968";
+}
+.vc-icons-selector i.tablet:before {
+  content: "\e969";
+  color: #000;
+}
+.vc-icons-selector i.tablet-landscape:before {
+  content: "\e96a";
+  color: #000;
+}
+.vc-icons-selector i.tag:before {
+  content: "\e96b";
+  color: #000;
+}
+.vc-icons-selector i.thumbnails:before {
+  content: "\e96c";
+  color: #000;
+}
+.vc-icons-selector i.trash:before {
+  content: "\e96d";
+  color: #000;
+}
+.vc-icons-selector i.triangle-down:before {
+  content: "\e96e";
+}
+.vc-icons-selector i.triangle-left:before {
+  content: "\e96f";
+}
+.vc-icons-selector i.triangle-right:before {
+  content: "\e970";
+}
+.vc-icons-selector i.triangle-up:before {
+  content: "\e971";
+}
+.vc-icons-selector i.tripadvisor:before {
+  content: "\e972";
+}
+.vc-icons-selector i.tumblr:before {
+  content: "\e973";
+}
+.vc-icons-selector i.tv:before {
+  content: "\e974";
+}
+.vc-icons-selector i.twitter:before {
+  content: "\e975";
+}
+.vc-icons-selector i.uikit:before {
+  content: "\e976";
+}
+.vc-icons-selector i.unlock:before {
+  content: "\e977";
+  color: #000;
+}
+.vc-icons-selector i.upload:before {
+  content: "\e978";
+  color: #000;
+}
+.vc-icons-selector i.user:before {
+  content: "\e979";
+  color: #000;
+}
+.vc-icons-selector i.users:before {
+  content: "\e97a";
+  color: #000;
+}
+.vc-icons-selector i.video-camera:before {
+  content: "\e97b";
+}
+.vc-icons-selector i.vimeo:before {
+  content: "\e97c";
+}
+.vc-icons-selector i.warning:before {
+  content: "\e97d";
+}
+.vc-icons-selector i.whatsapp:before {
+  content: "\e97e";
+}
+.vc-icons-selector i.wordpress:before {
+  content: "\e97f";
+}
+.vc-icons-selector i.world:before {
+  content: "\e980";
+  color: #000;
+}
+.vc-icons-selector i.xing:before {
+  content: "\e981";
+}
+.vc-icons-selector i.yelp:before {
+  content: "\e982";
+}
+.vc-icons-selector i.youtube:before {
+  content: "\e983";
+}
+.vc-icons-selector i.close-icon:before {
+  content: "\e984";
+  color: #000;
+}
+.vc-icons-selector i.close-large:before {
+  content: "\e985";
+  color: #000;
+}
+.vc-icons-selector i.marker:before {
+  content: "\e986";
+}
+.vc-icons-selector i.navbar-toggle-icon:before {
+  content: "\e987";
+}
+.vc-icons-selector i.overlay-icon:before {
+  content: "\e988";
+}
+.vc-icons-selector i.pagination-next:before {
+  content: "\e989";
+  color: #000;
+}
+.vc-icons-selector i.pagination-previous:before {
+  content: "\e98a";
+  color: #000;
+}
+.vc-icons-selector i.search-icon:before {
+  content: "\e98b";
+  color: #000;
+}
+.vc-icons-selector i.search-large:before {
+  content: "\e98c";
+  color: #000;
+}
+.vc-icons-selector i.search-navbar:before {
+  content: "\e98d";
+  color: #000;
+}
+.vc-icons-selector i.slidenav-next:before {
+  content: "\e98e";
+  color: #000;
+}
+.vc-icons-selector i.slidenav-next-large:before {
+  content: "\e98f";
+  color: #000;
+}
+.vc-icons-selector i.slidenav-previous:before {
+  content: "\e990";
+  color: #000;
+}
+.vc-icons-selector i.slidenav-previous-large:before {
+  content: "\e991";
+  color: #000;
+}
+.vc-icons-selector i.spinner:before {
+  content: "\e992";
+  color: #000;
+}
+.vc-icons-selector i.totop:before {
+  content: "\e993";
+  color: #000;
+}
+.vc-icons-selector i.accordion-close:before {
+  content: "\e994";
+}
+.vc-icons-selector i.accordion-open:before {
+  content: "\e995";
+}
+.vc-icons-selector i.divider-icon:before {
+  content: "\e996";
+  color: #000;
+}
+.vc-icons-selector i.form-checkbox:before {
+  content: "\e997";
+}
+.vc-icons-selector i.form-checkbox-indeterminate:before {
+  content: "\e998";
+}
+.vc-icons-selector i.form-radio:before {
+  content: "\e999";
+}
+.vc-icons-selector i.form-select:before {
+  content: "\e99a";
+}
+.vc-icons-selector i.list-bullet:before {
+  content: "\e99b";
+}
+.vc-icons-selector i.nav-parent-close:before {
+  content: "\e99c";
+  color: #000;
+}
+.vc-icons-selector i.nav-parent-open:before {
+  content: "\e99d";
+  color: #000;
+}

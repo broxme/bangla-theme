@@ -1,0 +1,1331 @@
+/*
+Theme Name: Bangla
+Theme URI: https://www.broxme.com
+Author: BroxMe Technology
+Author URI: https://www.broxme.com
+Description: Bangla theme A multi-purpose woocommerce theme which specially design for elementor page builder. 
+Version: 1.0.0
+License: GPL v3 or Later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.broxme_wpl
+Text Domain: bangla
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready, accessibility-ready
+*/
+
+
+/* =============================================================================
+   Component: Base
+
+ * 1. Set `font-size` to support `rem` units
+ *    Not using `font` property because a leading hyphen (e.g. -apple-system) causes the font to break in IE11 and Edge
+ * 2. Prevent adjusbroxme_wpents of font size after orientation changes in IE and iOS.
+ * 3. Style
+ ================================================================================*/
+broxme_wpl {
+  /* 1 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  background: #fff;
+  color: #666;
+}
+/* ===================== Removes default margin. ==================*/
+body {
+  margin: 0;
+}
+/* ================================================================
+*Links
+*Remove gaps in links underline in iOS 8+ and Safari 8+.
+ ===================================================================*/
+a {
+  -webkit-text-decoration-skip: objects;
+}
+/* ================= Remove the outline on focused links when they are also active or hovered ================= */
+a:active,
+a:hover {
+  outline: none;
+}
+/* =================== Style ====================================*/
+a,
+.broxme_wp-link {
+  color: #14ABF4;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+.broxme_wp-link:hover {
+  color: #0092d8;
+}
+/* ===========================================================================
+ * Text-level semantics
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ =============================================================================*/
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/*================================================================================
+ * 1. Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ * 2. Add the correct font weight in Chrome, Edge, and Safari.
+ ================================================================================*/
+/* 1 */
+b,
+strong {
+  font-weight: inherit;
+}
+/* 2 */
+b,
+strong {
+  font-weight: bolder;
+}
+/* =======================================================================
+ * 1. Correct the odd `em` font sizing in all browsers.
+ * 2. Consolas has a better baseline in running text compared to `Courier`
+ * 3. Style
+  =======================================================================*/
+:not(pre) > code,
+:not(pre) > kbd,
+:not(pre) > samp {
+  font-size: 0.875rem;
+  font-family: Consolas, monaco, monospace;
+  color: #f0506e;
+  white-space: nowrap;
+  padding: 2px 6px;
+  background: #f8f8f8;
+}
+/* ================= Emphasize ====================*/
+em {
+  color: #f0506e;
+}
+/* ================== Insert ======================*/
+ins {
+  background: #ffd;
+  color: #666;
+  text-decoration: none;
+}
+/* ================== Mark ===============*/
+mark {
+  background: #ffd;
+  color: #666;
+}
+/* =============== Quote ================*/
+q {
+  font-style: italic;
+}
+/* =============== Add the correct font size in all browsers. ===================*/
+small {
+  font-size: 80%;
+}
+/* =============== revents `sub` and `sup` affecting `line-height` in all browsers. ================*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* =========================================================================
+ *Embedded content
+ * Remove the gap between embedded content and the bottom of their containers.
+  ===========================================================================*/
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+/* ======================================================================
+ * Responsiveness
+ * 1. Set a maximum width
+ * 2. Auto scale the height. Only needed if `height` attribute is present
+ * 2. Corrects `max-width` behavior if padding and border are used
+   ======================================================================*/
+audio,
+canvas,
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+/* ===================Hide the overflow in IE. ==================*/
+svg:not(:root) {
+  overflow: hidden;
+}
+/* ============== Block elements Margins =============== */
+
+p,
+ul,
+ol,
+dl,
+pre,
+address,
+fieldset,
+figure {
+  margin: 0 0 20px 0;
+}
+/* =============== Add margin if adjacent element =================*/
+* + p,
+* + ul,
+* + ol,
+* + dl,
+* + pre,
+* + address,
+* + fieldset,
+* + figure {
+  margin-top: 20px;
+}
+/* =============== Headings ================== */
+h1,
+.broxme_wp-h1,
+h2,
+.broxme_wp-h2,
+h3,
+.broxme_wp-h3,
+h4,
+.broxme_wp-h4,
+h5,
+.broxme_wp-h5,
+h6,
+.broxme_wp-h6 {
+  margin: 0 0 20px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+  text-transform: none;
+}
+/* ============== Add margin if adjacent element ================*/
+* + h1,
+* + .broxme_wp-h1,
+* + h2,
+* + .broxme_wp-h2,
+* + h3,
+* + .broxme_wp-h3,
+* + h4,
+* + .broxme_wp-h4,
+* + h5,
+* + .broxme_wp-h5,
+* + h6,
+* + .broxme_wp-h6 {
+  margin-top: 40px;
+}
+/* ========== Sizes ==============*/
+h1,
+.broxme_wp-h1 {
+  font-size: 2.625rem;
+  line-height: 1.2;
+}
+h2,
+.broxme_wp-h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+h3,
+.broxme_wp-h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+h4,
+.broxme_wp-h4 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+h5,
+.broxme_wp-h5 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+h6,
+.broxme_wp-h6 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+/* ================= Lists ================ */
+ul,
+ol {
+  padding-left: 30px;
+}
+/* ================ Reset margin for nested lists =================*/
+ul > li > ul,
+ul > li > ol,
+ol > li > ol,
+ol > li > ul {
+  margin: 0;
+}
+/* ================= Description lists ================= */
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+/* ================== Horizontal rules =============== */
+/*===========================================================
+ * 1. Add the correct box sizing and height in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ * 3. Add the correct text-align in Edge and IE.
+ * 4. Style
+ =============================================================*/
+hr,
+.broxme_wp-hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  text-align: inherit;
+  margin: 0 0 20px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+/* ================= Add margin if adjacent element ===============*/
+* + hr,
+* + .broxme_wp-hr {
+  margin-top: 20px;
+}
+/* ============== Address ================= */
+address {
+  font-style: normal;
+}
+/* ============== Blockquotes =============== */
+blockquote {
+  margin: 0 0 40px 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: #333;
+  padding: 0 0 0 40px;
+  border-left: 2px solid #14ABF4;
+}
+blockquote small,
+blockquote cite {
+  font-size: 0.875rem;
+}
+blockquote small:before,
+blockquote cite:before {
+  content: '\2014 \00A0';
+}
+/* ============= Add margin if adjacent element ===============*/
+* + blockquote {
+  margin-top: 40px;
+}
+/* ================ Content ===============*/
+blockquote p:last-of-type {
+  margin-bottom: 0;
+}
+blockquote footer {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #666;
+}
+blockquote footer::before {
+  content: "— ";
+}
+blockquote footer::before {
+  content: "— ";
+}
+/* =============== Preformatted text ================= */
+/*
+ * 1. Contain overflow in all browsers.
+ * 2. Override UA
+ */
+pre {
+  font: 0.875rem / 1.5 Consolas, monaco, monospace;
+  color: #666;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  overflow: auto;
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  background: #fff;
+}
+pre code {
+  font-family: Consolas, monaco, monospace;
+}
+/* =============== Selection pseudo-element =============== */
+::-moz-selection {
+  background: #39f;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #39f;
+  color: #fff;
+  text-shadow: none;
+}
+/* =========== Hbroxme_wpL5 elements ================ */
+/*
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+details,
+main {
+  display: block;
+}
+/* =============== Add the correct display in all browsers. =================*/
+summary {
+  display: list-item;
+}
+/* ============ Add the correct vertical alignment in Chrome, Firefox, and Opera. ============*/
+progress {
+  vertical-align: baseline;
+}
+/* ================= Add the correct display in IE. ===============*/
+template {
+  display: none;
+}
+/* ============= Iframe ============= */
+iframe {
+  border: 0;
+}
+/* ============== Prevent the 300ms delay for touchscreen interactions =============== */
+/*
+ * Most browsers prevent the 300ms delay automatically for sites that use the `width=device-width` property.
+ * For Safari on iOS 9.3+, IE 11 and Edge on desktops and IE 11 on Windows Phone 8.1 it must be applied manually.
+ */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+/* ============ Pass media breakpoints to JS ================ */
+/* ============ Breakpoints =================*/
+.var-media-s:before {
+  content: '640px';
+}
+.var-media-m:before {
+  content: '960px';
+}
+.var-media-l:before {
+  content: '1200px';
+}
+.var-media-xl:before {
+  content: '1600px';
+}
+/* ============== Component: Link  ================ */
+/* ============== Muted  ================ */
+a.broxme_wp-link-muted,
+.broxme_wp-link-muted a {
+  color: #999;
+}
+a.broxme_wp-link-muted:hover,
+.broxme_wp-link-muted a:hover {
+  color: #666;
+}
+/* ============ Text ==============*/
+ /*============`!important` needed to override inverse component ============*/
+a.broxme_wp-link-text:not(:hover),
+.broxme_wp-link-text a:not(:hover) {
+  color: inherit !important;
+}
+a.broxme_wp-link-text:hover,
+.broxme_wp-link-text a:hover {
+  color: #999;
+}
+/* ================== Reset  ================ */
+/* ========== `!important` needed to override inverse component =============*/
+a.broxme_wp-link-reset,
+a.broxme_wp-link-reset:hover,
+.broxme_wp-link-reset a,
+.broxme_wp-link-reset a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* ============== Drawer style ===============*/
+.drawer-toggle {
+  top: 5px;
+}
+/* ============= Toolbar ============*/
+.broxme_wp-toolbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #222;
+  font-size: 0.775rem;
+  text-transform: uppercase;
+}
+.broxme_wp-toolbar ul,
+.broxme_wp-toolbar p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.broxme_wp-toolbar .broxme_wp-icon-button {
+  width: 28px;
+  height: 28px;
+}
+.broxme_wp-toolbar .broxme_wp-grid-small > * {
+  padding-left: 10px;
+}
+.broxme_wp-toolbar .broxme_wp-subnav {
+  margin-left: -10px;
+}
+.broxme_wp-toolbar .broxme_wp-subnav > * {
+  padding-left: 10px;
+}
+.broxme_wp-toolbar .broxme_wp-subnav > * > :first-child {
+  font-size: 0.775rem;
+}
+.broxme_wp-toolbar .broxme_wp-subnav-divider > :nth-child(n+2):not(.broxme_wp-first-column)::before {
+  margin-right: 10px;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+
+/*=========== Preloader style ===============*/
+body.pg-loading, body.pg-loaded {
+  overflow-x: hidden;
+}
+
+.pg-loading-screen {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000000;
+  opacity: 1;
+  background-color: #FFF;
+  -webkit-transition: background-color 0.4s ease-in-out 0s;
+  -moz-transition: background-color 0.4s ease-in-out 0s;
+  -ms-transition: background-color 0.4s ease-in-out 0s;
+  -o-transition: background-color 0.4s ease-in-out 0s;
+  transition: background-color 0.4s ease-in-out 0s;
+}
+.pg-loading-screen.pg-loaded {
+  opacity: 0;
+  -webkit-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -moz-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -ms-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -o-animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: pgAnimLoaded 0.5s cubic-bezier(0.7, 0, 0.3, 1) both;
+  overflow-x: hidden;
+}
+.pg-loading-screen.pg-loading .pg-loading-logo-header, .pg-loading-screen.pg-loading .pg-loading-hbroxme_wpl {
+  opacity: 1;
+}
+.pg-loading-screen.pg-loading .pg-loading-logo-header, .pg-loading-screen.pg-loading .pg-loading-hbroxme_wpl:not(.pg-loaded) {
+  -webkit-animation: pgAnimLoading 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -moz-animation: pgAnimLoading 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -ms-animation: pgAnimLoading 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -o-animation: pgAnimLoading 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: pgAnimLoading 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+}
+.pg-loading-screen.pg-loading .pg-loading-hbroxme_wpl:not(.pg-loaded) {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.pg-loading-screen .pg-loading-inner {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: static;
+}
+.pg-loading-screen .pg-loading-center-outer {
+  width: 100%;
+  padding: 0;
+  display: table !important;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+.pg-loading-screen .pg-loading-center-middle {
+  padding: 0;
+  vertical-align: middle;
+  display: table-cell  !important;
+  margin: 0;
+  text-align: center;
+}
+.pg-loading-screen .pg-loading-logo-header, .pg-loading-screen .pg-loading-hbroxme_wpl {
+  width: 100%;
+  opacity: 0;
+}
+.pg-loading-screen .pg-loading-logo-header {
+  text-align: center;
+}
+.pg-loading-screen .pg-loading-logo-header img {
+  display: inline-block !important;
+}
+.pg-loading-screen .pg-loading-hbroxme_wpl {
+  margin-top: 35px;
+}
+.pg-loading-screen .pg-loading-hbroxme_wpl.pg-loaded {
+  -webkit-transition: opacity 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -moz-transition: opacity 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -ms-transition: opacity 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: opacity 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: opacity 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.pg-loading-screen .pg-loading-hbroxme_wpl.pg-loaded.pg-removing {
+  opacity: 0;
+}
+.pg-loading-screen .pg-loading-hbroxme_wpl.pg-loaded.pg-loading {
+  opacity: 1;
+}
+
+@-webkit-keyframes pgAnimLoading {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes pgAnimLoading {
+  from {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes pgAnimLoaded {
+  from {
+    opacity: 1;
+  }
+}
+@keyframes pgAnimLoaded {
+  from {
+    opacity: 1;
+  }
+}
+
+
+
+.broxme_wp-spinner {
+  margin: 35px auto;
+  width: 70px;
+  text-align: center;
+}
+
+.broxme_wp-spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.broxme_wp-spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.broxme_wp-spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+/* 
+ * Boxed Page
+ */
+/* ============== Desktop and bigger ==============*/
+@media (min-width: 1280px) {
+  .layout-boxed .broxme_wp-page > * {
+    position: relative;
+    max-width: 1360px;
+    background: #fff;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  .layout-boxed .broxme_wp-page-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+/* ============= header style ===============*/
+.broxme_wp-header .navbar-color-default {
+  background-color: #fff;
+}
+.broxme_wp-header .navbar-color-muted {
+  background-color: #f8f8f8;
+}
+.broxme_wp-header .navbar-color-primary {
+  background-color: #14ABF4;
+}
+.broxme_wp-header .navbar-color-secondary {
+  background-color: #222;
+}
+.broxme_wp-header .broxme_wp-logo-img {
+  line-height: normal;
+}
+.broxme_wp-header .broxme_wp-logo-text {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.broxme_wp-header .navbar-color-primary .broxme_wp-logo-text,
+.broxme_wp-header .navbar-color-secondary .broxme_wp-logo-text {
+  color: #fff;
+}
+.broxme_wp-header .broxme_wp-center-logo a:after {
+  content: none;
+}
+.broxme_wp-header .textwidget p {
+  margin: 0;
+}
+
+.broxme_wp-header-wrapper {
+  position: relative;
+}
+.broxme_wp-header-transparent .broxme_wp-header-wrapper {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.broxme_wp-header-transparent .broxme_wp-header-wrapper .broxme_wp-search-default .broxme_wp-search-input {
+  background-color: transparent;
+}
+.broxme_wp-header-transparent.broxme_wp-header-fixed .broxme_wp-header-wrapper {
+  position: fixed;
+}
+/* ============= light color nav override ===================*/
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-navbar-nav > li > a {
+  color: #e5e5e5
+}
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-navbar-nav > li.broxme_wp-active > a,
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-navbar-nav > li:hover > a,
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-logo,
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-search .broxme_wp-search-icon, 
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-search-input,
+.broxme_wp-header-transparent .broxme_wp-light .broxme_wp-search-input::placeholder {
+  color: #fff;
+}
+
+.broxme_wp-header.broxme_wp-light .broxme_wp-navbar-nav > li > a {
+  color: #e5e5e5
+}
+.broxme_wp-header.broxme_wp-light .broxme_wp-navbar-nav > li.broxme_wp-active > a,
+.broxme_wp-header.broxme_wp-light .broxme_wp-navbar-nav > li:hover > a,
+.broxme_wp-header.broxme_wp-light .broxme_wp-logo,
+.broxme_wp-header.broxme_wp-light .broxme_wp-search .broxme_wp-search-icon, 
+.broxme_wp-header.broxme_wp-light .broxme_wp-search-input,
+.broxme_wp-header.broxme_wp-light .broxme_wp-search-input::placeholder {
+  color: #fff;
+}
+
+.broxme_wp-header.broxme_wp-light .broxme_wp-search-input {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+ /*.broxme_wp-navbar-container:not(.broxme_wp-navbar-transparent) {
+  background-color: #fff;
+ }*/
+
+/* =============== navbar style ================= */
+.broxme_wp-header .broxme_wp-navbar-nav > li > a {
+  font-size: 14px;
+}
+
+.broxme_wp-header .broxme_wp-navbar-dropdown-nav>li>a, 
+.broxme_wp-header .broxme_wp-navbar-dropdown-nav .broxme_wp-nav-sub a {
+  font-size: 14px;
+}
+
+
+
+
+.broxme_wp-totop {
+    padding: 15px;
+    height: 18px;
+    line-height: 14px;
+    z-index: 100;
+    color: #999;
+}
+.broxme_wp-totop:hover, .broxme_wp-totop:focus {
+  color: #fff;
+}
+
+/* =============== Cookie bar style ===============*/
+#cookie-bar {
+  background-color: #fff;
+  color: #666;
+  z-index: 100;
+  box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* ============ 404 page style =================*/
+.error-404-section > div {
+  border: 20px solid #14ABF4;
+  max-width: 750px;
+}
+.error-404-section h1 {
+  font-size: 140px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.error-404-section h3 {
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+
+/* ============ Default widget design ============= */
+
+.broxme_wp-blog-thumbnail {
+  position: relative;
+}
+.broxme_wp-blog-thumbnail .broxme_wp-blog-entry-overlay {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.widget ul:not(.broxme_wp-list) {
+  padding: 0;
+  list-style: none;
+  
+}
+.widget ul:not(.broxme_wp-list) > li::before,
+.widget ul:not(.broxme_wp-list) > li::after {
+  content: "";
+  display: table;
+}
+.widget ul:not(.broxme_wp-list) > li::after {
+  clear: both;
+}
+.widget ul:not(.broxme_wp-list) > li > :last-child {
+  margin-bottom: 0;
+}
+.widget ul:not(.broxme_wp-list) ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+  font-size: 13px;
+}
+.widget ul:not(.broxme_wp-list) > li:nth-child(n+2),
+.widget ul:not(.broxme_wp-list) > li > ul {
+  margin-top: 10px;
+}
+.broxme_wp-main .widget {
+  /*
+        * Divider
+        */
+}
+.broxme_wp-main .widget ul > li:nth-child(n+2) {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(120, 120, 120, 0.15);
+}
+.broxme_wp-main .widget.widget_categories ul li a:after,
+.broxme_wp-main .widget.widget_pages ul li a:after,
+.broxme_wp-main .widget.widget_meta ul li a:after,
+.broxme_wp-main .widget.widget_nav_menu ul li a:after,
+.broxme_wp-main .widget.widget_archive ul li a:after {
+  content: "›";
+  width: 10px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  float: right;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.broxme_wp-main .widget ul li a {
+  color: #666;
+}
+.broxme_wp-main .widget ul li a:hover {
+  color: #4d4d4d;
+}
+.widget_recent_entries li:nth-child(n+2),
+.widget_recent_comments li:nth-child(n+2) {
+  border-top: 1px solid rgba(146, 146, 146, 0.15);
+  padding-top: 15px !important;
+  margin-top: 15px !important;
+}
+.widget_recent_entries li a {
+  color: #666;
+  text-decoration: none;
+  font-weight: 600;
+}
+.widget_recent_entries li:hover {
+  color: #4d4d4d;
+}
+.widget_recent_entries span.post-date {
+  display: block;
+  color: #aaa;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.widget_tag_cloud a {
+  background: transparent;
+  color: #444;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 6px 8px;
+  float: left;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: normal;
+  margin: 0 2px 2px 0;
+  text-transform: uppercase;
+  font-size: 10px !important;
+  text-decoration: none;
+  border: 1px solid rgba(146, 146, 146, 0.15);
+  border-radius: 3px;
+}
+.widget_tag_cloud a:hover {
+  background: #F44336;
+  color: #ffffff;
+  border-color: #F44336;
+}
+.widget_tag_cloud a .tagcloud:before {
+  content: "";
+  display: table-cell;
+}
+.widget_tag_cloud a .tagcloud:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#wp-calendar td {
+  border: 1px solid rgba(146, 146, 146, 0.15);
+  text-align: center;
+  padding: 4px 0px;
+  font-size: 12px;
+}
+.widget .panel-content select {
+  max-width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(120, 120, 120, 0.15);
+}
+.widget_archive select,
+.widget_categories select {
+  width: 100%;
+}
+.widget_rss .rssSummary {
+  font-size: 13px;
+  color: #999;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.widget_rss a.rsswidget {
+  font-weight: 700;
+}
+.widget_rss cite {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+.widget_rss ul li + li {
+  padding-top: 15px !important;
+  margin-top: 15px !important;
+}
+.wp-caption,
+.gallery-caption {
+  color: #666;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-style: italic;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+.gallery .gallery-icon a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.gallery .gallery-icon a:after {
+  content: "+";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -30%) rotate(-180deg);
+  -moz-transform: translate(-50%, -30%) rotate(-180deg);
+  -o-transform: translate(-50%, -30%) rotate(-180deg);
+  transform: translate(-50%, -30%) rotate(-180deg);
+  color: #fff;
+  font-size: 24px;
+  opacity: 0;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  box-shadow: 0 0 0 1px #fff;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.gallery .gallery-icon a:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  border-radius: 500px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+.gallery .gallery-icon a:hover:before {
+  background-color: #14ABF4;
+  border-radius: 0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.5;
+}
+.gallery .gallery-icon a:hover:after {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+  -moz-transform: translate(-50%, -50%) rotate(0deg);
+  -o-transform: translate(-50%, -50%) rotate(0deg);
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.sticky {
+  position: relative;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+/* ============== Text meant only for screen readers. ============= */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* ==============    Many screen reader and browser combinations announce broken words as they would appear visually. ===============*/
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* ========= Above WP toolbar. =========== */
+}
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========== badge style ========== */
+
+.broxme_wp-navbar-nav li.coming-soon,
+.broxme_wp-navbar-nav li.new,
+.broxme_wp-navbar-nav li.updated {
+  position: relative;
+}
+
+.broxme_wp-navbar-nav li.coming-soon:after,
+.broxme_wp-navbar-nav li.new:after,
+.broxme_wp-navbar-nav li.updated:after {
+    content: "";
+    position: absolute;
+    width: auto;
+    background: rgba(20, 171, 244, 0.58);
+    color: #fff;
+    right: 0;
+    top: 7px;
+    font-size: 8px;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.broxme_wp-navbar-nav li.coming-soon:after {
+    content: "UPCOMING";
+}
+
+.broxme_wp-navbar-nav li.new:after {
+    content: "NEW";
+    background: #F2295B;
+}
+
+.broxme_wp-navbar-nav li.updated:after {
+    content: "UPDATED";
+    background: #ef7f09;
+}
+
+/* ========== Navbar style ============ */
+.broxme_wp-navbar-nav > li > a {
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    position: relative;
+}
+
+.navbar-style1 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::before,
+.navbar-style3 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: transparent;
+  -webkit-transition: 0.15s cubic-bezier(0, 0.75, 0.43, 1);
+  transition: 0.1s cubic-bezier(0, 0.75, 0.43, 1);
+  -webkit-transition-property: background-color, opacity, transform;
+  transition-property: background-color, opacity, transform;
+  left: 0;
+  right: 0;
+  margin: 0 15px;
+  opacity: 1;
+  -webkit-transform: scale3d(0, 1, 1);
+  transform: scale3d(0, 1, 1);
+}
+.navbar-style1 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li.broxme_wp-active > a::before,
+.navbar-style3 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li.broxme_wp-active > a::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  background-color: #3FB8FD;
+}
+.navbar-style1 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li:hover > a::before,
+.navbar-style3 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li:hover > a::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  background-color: #3FB8FD;
+}
+.navbar-style1 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::before {
+  top: 20px;
+}
+.navbar-style3 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::before {
+  top: 0px;
+}
+.navbar-style2 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::after,
+.navbar-style4 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: transparent;
+  -webkit-transition: 0.15s cubic-bezier(0, 0.75, 0.43, 1);
+  transition: 0.1s cubic-bezier(0, 0.75, 0.43, 1);
+  -webkit-transition-property: background-color, opacity, transform;
+  transition-property: background-color, opacity, transform;
+  left: 0;
+  right: 0;
+  margin: 0 15px;
+  opacity: 1;
+  -webkit-transform: scale3d(0, 1, 1);
+  transform: scale3d(0, 1, 1);
+}
+.navbar-style2 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li.broxme_wp-active > a::after,
+.navbar-style4 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li.broxme_wp-active > a::after {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  background-color: #3FB8FD;
+}
+.navbar-style2 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li:hover > a::after,
+.navbar-style4 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li:hover > a::after {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  background-color: #3FB8FD;
+}
+.navbar-style2 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::after {
+  bottom: 20px;
+}
+.navbar-style4 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::after {
+  bottom: 0px;
+}
+.navbar-style5 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li > a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 8px;
+  background-color: transparent;
+  -webkit-transition: 0.25s cubic-bezier(0, 0.75, 0.43, 1);
+  transition: 0.25s cubic-bezier(0, 0.75, 0.43, 1);
+  -webkit-transition-property: background-color, opacity, transform;
+  transition-property: background-color, opacity, transform;
+  left: 0;
+  right: 0;
+  margin: 0 10px;
+  opacity: 1;
+  -webkit-transform: scale3d(0, 1, 1);
+  transform: scale3d(0, 1, 1);
+  z-index: -1;
+  transform-origin: left;
+}
+.navbar-style5 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li.broxme_wp-active > a::after {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+}
+.navbar-style5 .broxme_wp-header .broxme_wp-navbar .broxme_wp-navbar-nav > li:hover > a::after {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
+  background-color: #3FB8FD;
+}
+
+/* ========== copyright color fix ============ */
+.broxme_wp-copyright.broxme_wp-light {
+  color: #e5e5e5;
+}
+
+.elementor-editor-active .broxme_wp-header-wrapper {
+  pointer-events: none;
+}
+
+body .broxme_wp-pagination > * > * {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #666;
+  transition: all 0.5s ease-in-out;
+}
+body .broxme_wp-pagination > * > *:hover {
+  background-color: transparent;
+  color: #666;
+  opacity: 0.6;
+}
+@media (min-width: 960px) {
+  .broxme_wp-section.broxme_wp-section.broxme_wp-section-medium {
+      padding-top: 35px;
+      padding-bottom: 35px;
+  }
+}
+
+/* ============ gallery style ==========*/
+.gallery {
+  margin: 0 -1.1666667% 1.75em;
+}
+.gallery-item {
+  display: inline-block;
+  max-width: 33.33%;
+  padding: 0 1.1400652% 2.2801304%;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.gallery-columns-1 .gallery-item {
+  max-width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+.gallery-icon img {
+  margin: 0 auto;
+}
+.gallery-caption {
+  color: #686868;
+  display: block;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-style: italic;
+  line-height: 1.6153846154;
+  padding-top: 0.5384615385em;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+  display: none;
+}
